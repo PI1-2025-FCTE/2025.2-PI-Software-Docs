@@ -17,83 +17,66 @@ front-end e do back-end. -->
 ## Propósito do Software
 
 <div align="justify">&emsp;&emsp;
-O Software proposto é uma plataforma web que atua como interface central para o controle, monitoramento e análise do carrinho autônomo equipado com um sistema embarcado ESP32.  
-A comunicação ocorre via protocolo HTTP sobre TCP/IP, permitindo o planejamento detalhado de rotas, o envio de missões ao veículo, o acompanhamento de sua posição e a análise dos dados coletados durante as missões.
+O Software proposto é uma plataforma web que atua como interface central para o controle, monitoramento e análise do carrinho autônomo equipado com um sistema embarcado ESP32. As principais funcnionalidades incluem: planejamento detalhado de rotas, o envio de missões ao veículo, o acompanhamento de sua posição e a análise dos dados coletados durante as missões.
 </div>
 
 ---
 
-### Funcionalidades Principais
-
-#### 1. Envio de Instruções de Rotas (Gerenciamento de Missões)
-
-Esta é a funcionalidade de comando da plataforma. A interface permitirá que o usuário crie, salve e envie **missões** para o carrinho.
-
-**Criação de Rotas:**  
-O usuário poderá definir percursos por meio de uma interface visual composta por blocos de ações.  
-Cada rota é uma sequência de pontos de passagem (*waypoints*) ou comandos específicos, como:
-
-- "Vá para a coordenada X, Y"
-- "Gire 90°"
-- "Ative o atuador A"
-
-**Envio da Missão via HTTP:**  
-Ao clicar em **"Iniciar Missão"**, a plataforma traduz a rota em um formato de dados, como JSON, e a envia ao sistema embarcado.
-
-```bash
-{
-  "mission_id": "M101",
-  "action": "a103da0112"
-}
-```
-
-> O campo `"action"` representa uma sequência de comandos, por exemplo:  
-> “ande 103 cm, vire à direita, ande 112 cm”.
-
----
-
-#### 2. Histórico de Missões
-
-O sistema registrará todas as missões executadas, fornecendo um log detalhado para consulta e auditoria.
-
-**Log de Execução:**  
-Para cada missão, o sistema armazenará informações como:
-
-- Tempo de execução  
-- Status final (Concluída, Falhou)
-
-**Interface de Consulta:**  
-A plataforma contará com uma tela dedicada para filtrar e pesquisar missões por **data**, **status** ou **ID do carrinho**, exibindo todos os detalhes registrados.
-
----
-
-#### 3. Análise de Dados
-
-**Dashboard Analítico:**  
-Uma tela interativa apresentará gráficos e indicadores de desempenho do sistema.
-
-**Métricas Avaliadas:**
-
-- **Eficiência:** tempo médio para completar missões e distância percorrida  
-- **Saúde do Veículo:** consumo e vida útil da bateria, entre outros parâmetros
-
 ## Estilo Arquitetural
 
-- **Padrão adotado**: Cliente-Servidor
+<div align="justify">&emsp;&emsp;
+A solução proposta adota o padrão arquitetural Cliente-Servidor, que estabelece separação das responsabilidades entre os diferentes componentes do sistema. Esta escolha foi fundamentada na necessidade de centralizar a lógica de negócio na camada de backend (servidor) enquanto mantém uma interface de usuário leve e responsiva no frontend (cliente). Tais escolhas se justificam pelos seguintes motivos:
+</div>
 
-Justificativa: o padrão Cliente-Servidor foi adotado porque define uma clara separação de responsabilidades, centralizando a lógica de negócio na API e gerenciando a comunicação entre a interface web e o hardware.
+1. **Separação de responsabilidades:** O backend gerencia toda a comunicação TCP com intermediação de um broker com a ESP32, valida os comandos, realiza cálculos de trajetória e faz a persistência de dados, enquanto o frontend se concentra exclusivamente na experiência do usuário.
 
-- **Linguagens de programação**: TypeScript, Python, C++
+2. **Escalabilidade:** A arquitetura permite que múltiplos clientes (navegadores) acessem o mesmo backend sem gerar conflitos.
 
-Justificativa: TypeScript porque agrega robustez ao código por meio da tipagem estática, prevenindo erros. Python porque permite desenvolvimento rápido e integração eficiente com bibliotecas, além de suportar lógica de negócio complexa no backend. C++ porque permite controle de baixo nível do ESP32 e execução precisa em tempo real.
+<div align="justify">&emsp;&emsp;
+O frontend consiste em uma aplicação web desenvolvida em React com TypeScript, executada no navegador do usuário. Esta camada é responsável por toda a interação com o usuário, incluindo:
+</div>
 
-- **Frameworks e bibliotecas**: React, FastAPI
+- Interface gráfica para criação de trajetórias
+- Visualização de status de conexão
+- Renderização de gráficos de trajetória
+- Exibição de histórico de trajetórias
 
-Justificativa: React porque facilita a construção de uma interface interativa e baseada em componentes. FastAPI porque oferece alta performance, simplicidade no desenvolvimento de APIs e suporte eficiente a conexões assíncronas em tempo real (WebSocket/SSE).
+<div align="justify">&emsp;&emsp;
+A comunicação entre o frontend e o backend ocorre exclusivamente através de protocolo HTTP/HTTPS para requisições REST.
+</div>
 
-- **Banco de dados**: PostgreSQL
+<div align="justify">&emsp;&emsp;
+O backend, implementado em Python utilizando o framework FastAPI, funciona como o núcleo da aplicação. Suas responsabilidades incluem:
+</div>
 
-Justificativa: PostgreSQL porque garante armazenamento confiável e estruturado dos dados, oferece bom desempenho e extensibilidade, permitindo análises futuras das trajetórias.
+### REST API
+- Expor endpoints HTTP para o frontend  
+- Validar requisições e parâmetros  
+- Publicar e inscrever-se em dados na fila usando protocolo MQTT  
+- Retornar respostas formatadas em JSON  
+
+### Eclipse Mosquitto
+- Broker responsável pela comunicação entre os serviços da ESP32 e o backend  
+
+### ESP32 Service (TCP Client)
+- Estabelecer e manter conexões TCP com o broker  
+- Implementar protocolo de comunicação binário/ASCII  
+- Gerenciar timeouts e reconexões  
+- Detectar perda de conexão (RNF09)  
+- Codificar comandos de alto nível para o protocolo da ESP32  
+- Decodificar respostas enviadas pela ESP32
+
+<div align="justify">&emsp;&emsp;
+O PostgreSQL foi escolhido como sistema de gerenciamento de banco de dados devido à sua robustez, conformidade com padrões SQL e suporte nativo a tipos de dados JSON. O backend se comunica com o banco através de um ORM (Object-Relational-Mapping), facilitando operações de CRUD e garantindo a integridade dos dados.
+</div>
+
+<div align="justify">&emsp;&emsp;
+ESP32 atua como um cliente/servidor TCP que publica status e trajetos, além de assinar os dados dos comandos enviados pelo backend no broker de comunicação. Da mesma forma, o backend, também atuando como cliente/servidor, publica apenas os comandos que devem ser executados pelo ESP32 e se inscreve nos tópicos de status e trajetos.
+</div>
+
+
+
+
 
 ## Diagrama de alto nível
 
