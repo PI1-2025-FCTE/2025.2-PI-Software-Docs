@@ -27,10 +27,9 @@ A metodologia adotada segue o padrão ágil, onde as histórias de usuário são
 **Como** usuário, **quero** visualizar a lista de trajetórias antigas **para** analisar execuções passadas e escolher qual detalhar.
 
 #### Critérios de Aceitação
-- [ ] O sistema deve exibir todas as trajetórias armazenadas.  
-- [ ] Cada trajetória deve conter informações resumidas (data, duração, status).
-- [ ] Se não houver trajetórias, o sistema deve informar "Nenhuma trajetória encontrada". 
-
+- [x] O sistema deve exibir todas as trajetórias armazenadas.  
+- [x] Cada trajetória deve conter o id do trajeto salvo no banco.
+- [x] Caso existam muitas trajetórias, o usuário deve poder rolar o mouse para ver as trajetória que não couberem na tela. 
 ---
 
 ### US2 - Detalhar trajetória antiga
@@ -38,22 +37,21 @@ A metodologia adotada segue o padrão ágil, onde as histórias de usuário são
 **Como** usuário, **quero** visualizar os detalhes de uma trajetória antiga **para** entender sua execução de forma mais completa tendo acesso a seus dados, gráficos e estatísticas.
 
 #### Critérios de Aceitação
-- [ ] O sistema deve exibir os comandos executados e suas sequências.  
+- [x] O sistema deve exibir os comandos executados e suas sequências.  
 - [ ] O sistema deve exibir parâmetros como distância percorrida, desenho de trajetória e tempo.
-- [ ] A trajetória deve mostrar onde o objeto foi depositado.   
-- [ ] Se a trajetória não existir, o sistema deve mostrar uma mensagem de erro.  
+- [x] A trajetória deve mostrar onde o objeto foi depositado.   
 
 ---
 
 ### US3 - Conectar com carrinho
 
-**Como** usuário, **quero** conectar a interface web ao carrinho (ESP32) **para** controlar e monitorar suas trajetórias em tempo real.
+**Como** usuário, **quero** conectar a interface web ao carrinho (ESP32) **para** controlar e monitorar suas trajetórias.
 
 #### Critérios de Aceitação
-- [ ] O usuário deve poder clicar em um botão "Conectar" para iniciar conexão com o carrinho.  
-- [ ] Caso o usuário tente iniciar uma trajetória sem estar conectado, uma mensagem de erro deve aparecer.
-- [ ] O sistema deve exibir claramente o status da conexão (conectado/desconectado) a todo momento, em qualquer página.
-- [ ] Se a conexão falhar, o sistema deve mostrar uma mensagem de erro.  
+- [x] O usuário deve poder clicar em um botão "Conectar" para iniciar conexão com o carrinho.  
+- [x] Caso o usuário tente iniciar uma trajetória sem estar conectado, o botão de enviar comandos não deve funcionar.
+- [x] O sistema deve exibir claramente o status da conexão (conectado/desconectado) a todo momento.
+- [x] Se a conexão falhar, o sistema deve mostrar uma mensagem de erro.  
 
 ---
 
@@ -62,9 +60,9 @@ A metodologia adotada segue o padrão ágil, onde as histórias de usuário são
 **Como** usuário, **quero** montar uma sequência de comandos para o carrinho **para** que ele execute um percurso definido.
 
 #### Critérios de Aceitação
-- [ ] O sistema deve permitir inserir comandos: avançar (com distância), virar à esquerda (90°), virar à direita (90°).  
-- [ ] O usuário deve poder salvar ou enviar a sequência para o carrinho.  
-- [ ] Em caso de parâmetro inválido, o sistema deve exibir mensagem de erro.  
+- [x] O sistema deve permitir inserir comandos: avançar (com distância), virar à esquerda (90°), virar à direita (90°).  
+- [x] O usuário deve poder enviar a sequência para o carrinho.  
+- [x] Em caso de parâmetro inválido, o sistema deve exibir mensagem de erro.  
 
 ---
 
@@ -73,9 +71,9 @@ A metodologia adotada segue o padrão ágil, onde as histórias de usuário são
 **Como** usuário, **quero** iniciar a execução de uma trajetória planejada **para** que o carrinho comece a percorrer o trajeto.
 
 #### Critérios de Aceitação
-- [ ] O sistema deve confirmar a sequência de comandos antes do envio.  
-- [ ] O carrinho deve receber os comandos validados para execução.  
-- [ ] Em caso de falha no envio, o sistema deve notificar o usuário.  
+- [x] O sistema deve confirmar a sequência de comandos antes do envio.  
+- [x] O carrinho deve receber os comandos validados para execução.  
+- [x] Em caso de falha no envio, o sistema deve notificar o usuário.  
 
 ---
 
