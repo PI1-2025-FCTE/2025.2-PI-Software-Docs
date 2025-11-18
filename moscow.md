@@ -4,19 +4,19 @@ Os requisitos funcionais descrevem as funcionalidades que o sistema deve oferece
 
 | Código | Requisito                                                                                                               |
 | ------ | ----------------------------------------------------------------------------------------------------------------------- |
-| RF01   | Fornecer uma interface gráfica para o usuário.                                                                          |
+| RF01   | Fornecer uma interface gráfica para o usuário programar e monitorar as trajetórias do carrinho.                         |
 | RF02   | Estabelecer e manter comunicação sem fio com o hardware do carrinho (ESP32).                                            |
 | RF03   | Permitir que o usuário inicie conexão com um carrinho específico na rede.                                               |
 | RF04   | Criar novas trajetórias combinando comandos pré-definidos (ex.: "Avançar x cm", "Virar à esquerda", "Virar à direita"). |
+| RF05   | Exibir informações básicas do carrinho conectado, como nível da bateria e estado atual.                                 |
 | RF07   | Enviar a sequência de comandos planejada para o carrinho e iniciar a execução da trajetória.                            |
 | RF08   | Disponibilizar comando de parada de emergência para interromper a trajetória em execução.                               |
-| RF09   | Receber e processar dados do carrinho em tempo real durante a execução da trajetória.                                   |
-| RF10   | Exibir graficamente a trajetória atual do carrinho em tempo real.                                                       |
+| RF09   | Receber e processar dados do carrinho ao fim da trajetória.                                                             |
+| RF10   | Exibir graficamente a trajetória atual do carrinho no final da trajetória.                                              |
 | RF11   | Persistir dados das trajetórias concluídas em um banco de dados.                                                        |
 | RF12   | Listar todas as trajetórias salvas anteriormente.                                                                       |
 | RF13   | Visualizar detalhadamente uma trajetória antiga, incluindo a exibição do percurso em gráfico.                           |
 | RF14   | Executar trajetórias de forma autônoma após o envio dos comandos, sem intervenção humana.                               |
-| RF15   | Exibir informações básicas do carrinho conectado, como nível da bateria e estado atual.                                 |
 
 ### Requisitos Não Funcionais (RNF)
 
@@ -24,10 +24,8 @@ Os requisitos não funcionais definem as restrições ou qualidades do sistema, 
 
 | Código | Requisito                                                                                                      |
 | ------ | -------------------------------------------------------------------------------------------------------------- |
-| RNF01  | Fornecer a interface como uma aplicação web.                                                                   |
-| RNF02  | Tornar a interface web responsiva, adaptando-se a diferentes tamanhos de tela.                                 |
-| RNF03  | Exibir mensagens de erro claras caso a comunicação com o carrinho falhe ou comandos inválidos sejam inseridos. |
-| RNF04  | Manter comunicação contínua e estável entre a interface e o carrinho durante a operação.                       |
+| RNF18  | Tornar a interface web responsiva, adaptando-se a diferentes tamanhos de tela.                                 |
+| RNF19  | Manter comunicação contínua e estável entre a interface e o carrinho durante a operação.                       |
 
 ## MoSCoW
 
@@ -40,33 +38,33 @@ MoSCoW é uma técnica de priorização de requisitos que os classifica em quatr
 
 ### M - Must Have (Deve Ter)
 
-| Código | Requisito                                                                                     |
-| ------ | --------------------------------------------------------------------------------------------- |
-| RF01   | Fornecer uma interface gráfica para o usuário.                                                |
-| RF02   | Estabelecer e manter comunicação sem fio com o hardware do carrinho (ESP32).                  |
-| RF03   | Permitir que o usuário inicie conexão com um carrinho específico na rede.                     |
-| RF04   | Criar novas trajetórias combinando comandos pré-definidos.                                    |
-| RF07   | Enviar a sequência de comandos planejada para o carrinho e iniciar a execução da trajetória.  |
-| RF08   | Disponibilizar comando de parada de emergência para interromper a trajetória em execução.     |
-| RF09   | Receber e processar dados do carrinho em tempo real durante a execução da trajetória.         |
-| RF11   | Persistir dados das trajetórias concluídas em um banco de dados.                              |
-| RF12   | Listar todas as trajetórias salvas anteriormente.                                             |
-| RF13   | Visualizar detalhadamente uma trajetória antiga, incluindo a exibição do percurso em gráfico. |
-| RF14   | Executar trajetórias de forma autônoma após o envio dos comandos, sem intervenção humana.     |
+| Código | Requisito                                                                                                               |
+| ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| RF01   | Fornecer uma interface gráfica para o usuário programar e monitorar as trajetórias do carrinho.                         |
+| RF02   | Estabelecer e manter comunicação sem fio com o hardware do carrinho (ESP32).                                            |
+| RF03   | Permitir que o usuário inicie conexão com um carrinho específico na rede.                                               |
+| RF04   | Criar novas trajetórias combinando comandos pré-definidos (ex.: "Avançar x cm", "Virar à esquerda", "Virar à direita"). |
+| RF07   | Enviar a sequência de comandos planejada para o carrinho e iniciar a execução da trajetória.                            |
+| RF08   | Disponibilizar comando de parada de emergência para interromper a trajetória em execução.                               |
+| RF09   | Receber e processar dados do carrinho ao fim da trajetória.                                                             |
+| RF11   | Persistir dados das trajetórias concluídas em um banco de dados.                                                        |
+| RF12   | Listar todas as trajetórias salvas anteriormente.                                                                       |
+| RF13   | Visualizar detalhadamente uma trajetória antiga, incluindo a exibição do percurso em gráfico.                           |
+| RF14   | Executar trajetórias de forma autônoma após o envio dos comandos, sem intervenção humana.                               |
 
 ### S - Should Have (Deveria Ter)
 
 | Código | Requisito                                                                                |
 | ------ | ---------------------------------------------------------------------------------------- |
-| RF10   | Exibir graficamente a trajetória atual do carrinho em tempo real.                        |
-| RNF02  | Tornar a interface web responsiva, adaptando-se a diferentes tamanhos de tela.           |
-| RNF04  | Manter comunicação contínua e estável entre a interface e o carrinho durante a operação. |
+| RF10   | Exibir graficamente a trajetória atual do carrinho no final da trajetória.               |
+| RNF18  | Tornar a interface web responsiva, adaptando-se a diferentes tamanhos de tela.           |
+| RNF19  | Manter comunicação contínua e estável entre a interface e o carrinho durante a operação. |
 
 ### C - Could Have (Poderia ter)
 
 | Código | Requisito                                                                               |
 | ------ | --------------------------------------------------------------------------------------- |
-| RF15   | Exibir informações básicas do carrinho conectado, como nível da bateria e estado atual. |
+| RF05   | Exibir informações básicas do carrinho conectado, como nível da bateria e estado atual. |
 
 ### W - Won't Have (Não Terá)
 
