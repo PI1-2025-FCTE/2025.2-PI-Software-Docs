@@ -91,7 +91,8 @@ Os principais objetivos deste roadmap são:
 - ✅ [Diagrama de alto nível (arquitetura)](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/arquitetura.md)
 - ✅ Protótipo de baixa fidelidade
 - ✅ [Protótipo de alta fidelidade](https://www.figma.com/design/OkpO39vj7ImHyDWaKpwxHB/Prot%C3%B3tipo-Telas-de-Controle-do-Carrinho?node-id=0-1&p=f&t=gJBnpnv5p6toqXYq-0)
-- ✅ [Casos de teste](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/casos-de-teste.md)
+- ❌ Casos de teste
+- ✅ [Matriz de rastreabilidade (Backward from)](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/casos-de-teste.md)
 
 ### Tarefas chave
 - Conversar com o departamento de hardware para definir o formato das instruções;
@@ -99,49 +100,41 @@ Os principais objetivos deste roadmap são:
 
 ## Alocação da equipe
 
-| Nome                                                   | Tarefas                                                                                |
-| ------------------------------------------------------ | -------------------------------------------------------------------------------------- |
-| [Eduardo Sandes](https://github.com/DiceRunner714)     | Casos de uso, MoSCow, Histórias de usuário, Arquitetura, DER, DLD, Fluxo de dados      |
-| [André Gomes](https://github.com/AJCGassassin)         | BPMN, Diagrama de Estados, Protótipo de baixa fidelidade, Protótipo de alta fidelidade |
-| [Cássio Reis](https://github.com/csreis72)             | Casos de uso, MoSCow, BPMN, Arquitetura, Casos de teste                                |
-| [Guilherme Araujo](https://github.com/GFlyan)          | RNF's, Diagrama de Estados, Protótipo de alta fidelidade                               |
-| [Márcio Costa](https://github.com/DeM4rcio)            | Casos de uso, RNF's, Arquitetura                                                       |
-| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Fluxo de dados, DER                                                                    |
+| Nome                                                   | Tarefas                                                                                                                 |
+| ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | Casos de uso, MoSCow, Histórias de usuário, Arquitetura, DER, DLD, Fluxo de dados, Backward from, RNF's, Casos de teste |
+| [André Gomes](https://github.com/AJCGassassin)         | BPMN, Diagrama de Estados, Protótipo de baixa fidelidade, Protótipo de alta fidelidade                                  |
+| [Cássio Reis](https://github.com/csreis72)             | Casos de uso, MoSCow, BPMN, Arquitetura, Casos de teste, DER                                                            |
+| [Guilherme Araujo](https://github.com/GFlyan)          | RNF's, Diagrama de Estados, Protótipo de alta, Histórias de usuário fidelidade                                          |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Casos de uso, RNF's, Arquitetura, Casos de teste                                                                        |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Fluxo de dados, DER                                                                                                     |
 
 ---
 
-## Sprint 3: User Interface & Integration
-**Duração:** 2 weeks  
-**Início:** TBD  
-**Término/Entrega:** TBD
-
-### Objetivos
-- Build user-facing interfaces
-- Integrate frontend with backend services
-- Implement responsive design
+## Sprint 3: Escrita do relatório 1
+**Duração:** 7 dias  
+**Início:** 06/10/2025  
+**Término/Entrega:** 13/10/2025
 
 ### Entregáveis
-- ✅ UI components library
-- ✅ Main application screens
-- ✅ Frontend-backend integration
-- ✅ Responsive layouts for mobile/desktop
+- ✅ Relatório 1
+    - ✅ Descrição do software
+    - ✅ Objetivo do projeto
+    - ❌ Indicadores
+- ✅ [Casos de teste](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/casos-de-teste.md)
+- ❌ Fluxo de dados
 
-### Tarefas chave
-- Design and implement UI mockups
-- Connect API endpoints to frontend
-- Implement state management
-- Add form validation and error handling
 
 ## Alocação da equipe
 
-| Nome                                                   | Tarefas |
-| ------------------------------------------------------ | ------- |
-| [Eduardo Sandes](https://github.com/DiceRunner714)     |         |
-| [André Gomes](https://github.com/AJCGassassin)         |         |
-| [Cássio Reis](https://github.com/csreis72)             |         |
-| [Guilherme Araujo](https://github.com/GFlyan)          |         |
-| [Márcio Costa](https://github.com/DeM4rcio)            |         |
-| [Yasmin Albuquerque](https://github.com/YasminDayrell) |         |
+| Nome                                                   | Tarefas                               |
+| ------------------------------------------------------ | ------------------------------------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | Descrição do software, Casos de teste |
+| [André Gomes](https://github.com/AJCGassassin)         | -                                     |
+| [Cássio Reis](https://github.com/csreis72)             | Descrição do software, Casos de teste |
+| [Guilherme Araujo](https://github.com/GFlyan)          | -                                     |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Objetivo do projeto, Casos de teste   |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Fluxo de dados, Indicadores           |
 
 ---
 
