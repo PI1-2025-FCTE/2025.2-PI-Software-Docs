@@ -43,7 +43,7 @@ Os principais objetivos deste roadmap são:
     - React
     - TypeScript
 - Definir formato dos dados entre o software e o hardware;
-- Início do levantamento de requisitos;
+- Início do levantamento de requisitos.
 
 ### Entregáveis
 
@@ -76,25 +76,26 @@ Os principais objetivos deste roadmap são:
 - Documentar os requisitos de forma clara;
 - Modelar os requisitos;
 - Priorizar os requisitos;
-- Gerar protótipos de baixa e alta fidelidade;
+- Gerar protótipos de baixa e alta fidelidade.
 
 ### Entregáveis
-- ✅ [Diagrama de casos de uso]()
-- ✅ [Histórias de usuário]()
-- ✅ [MoSCoW]()
-- ✅ [Diagrama entidade relacionamento (DER)]()
-- ✅ [Diagrama lógico de dados (DLD)]()
-- ✅ [Diagrama BPMN]()
-- ✅ [Diagrama de estados]()
-- ❌ [Fluxo de dados]()
-- ✅ [Requisitos não funcionais (RNF's)]()
-- ✅ [Diagrama de alto nível (arquitetura)]()
+- ✅ [Diagrama de casos de uso](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/diagrama-caso-uso.md)
+- ✅ [Histórias de usuário](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/historias-de-usuario.md)
+- ✅ [MoSCoW](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/moscow.md)
+- ✅ [Diagrama entidade relacionamento (DER)](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/assets/diagrama-entidade-relacionamento.png)
+- ✅ [Diagrama lógico de dados (DLD)](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/assets/diagrama-logico-de-dados.png)
+- ✅ [Diagrama BPMN](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/assets/BPMN%20.png)
+- ✅ [Diagrama de estados](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/diagrama-estados.md)
+- ❌ Fluxo de dados
+- ✅ [Requisitos não funcionais (RNF's)](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/requisitos-nao-funcionais)
+- ✅ [Diagrama de alto nível (arquitetura)](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/arquitetura.md)
 - ✅ Protótipo de baixa fidelidade
-- ✅ [Protótipo de alta fidelidade]()
-- ✅ [Casos de teste]()
+- ✅ [Protótipo de alta fidelidade](https://www.figma.com/design/OkpO39vj7ImHyDWaKpwxHB/Prot%C3%B3tipo-Telas-de-Controle-do-Carrinho?node-id=0-1&p=f&t=gJBnpnv5p6toqXYq-0)
+- ✅ [Casos de teste](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/casos-de-teste.md)
 
 ### Tarefas chave
 - Conversar com o departamento de hardware para definir o formato das instruções;
+- Desenvolver os entregáveis.
 
 ## Alocação da equipe
 
@@ -109,3 +110,175 @@ Os principais objetivos deste roadmap são:
 
 ---
 
+## Sprint 3: User Interface & Integration
+**Duração:** 2 weeks  
+**Início:** TBD  
+**Término/Entrega:** TBD
+
+### Objetivos
+- Build user-facing interfaces
+- Integrate frontend with backend services
+- Implement responsive design
+
+### Entregáveis
+- ✅ UI components library
+- ✅ Main application screens
+- ✅ Frontend-backend integration
+- ✅ Responsive layouts for mobile/desktop
+
+### Tarefas chave
+- Design and implement UI mockups
+- Connect API endpoints to frontend
+- Implement state management
+- Add form validation and error handling
+
+## Alocação da equipe
+
+| Nome                                                   | Tarefas |
+| ------------------------------------------------------ | ------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     |         |
+| [André Gomes](https://github.com/AJCGassassin)         |         |
+| [Cássio Reis](https://github.com/csreis72)             |         |
+| [Guilherme Araujo](https://github.com/GFlyan)          |         |
+| [Márcio Costa](https://github.com/DeM4rcio)            |         |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) |         |
+
+---
+
+## Sprint 4: Advanced Features
+**Duração:** 2 weeks  
+**Início:** TBD  
+**Término/Entrega:** TBD
+
+### Objetivos
+- Add advanced functionality
+- Implement user-requested features
+- Optimize performance
+
+### Entregáveis
+- ✅ Advanced feature set completed
+- ✅ Performance optimizations
+- ✅ Integration tests
+- ✅ User feedback incorporated
+
+### Tarefas chave
+- Implement search and filtering
+- Add notification system
+- Optimize database queries
+- Implement caching strategy
+
+## Alocação da equipe
+
+| Nome                                                   | Tarefas |
+| ------------------------------------------------------ | ------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     |         |
+| [André Gomes](https://github.com/AJCGassassin)         |         |
+| [Cássio Reis](https://github.com/csreis72)             |         |
+| [Guilherme Araujo](https://github.com/GFlyan)          |         |
+| [Márcio Costa](https://github.com/DeM4rcio)            |         |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) |         |
+
+---
+
+## Sprint 5: Testing & Quality Assurance
+**Duração:** 2 weeks  
+**Início:** TBD  
+**Término/Entrega:** TBD
+
+### Objetivos
+- Comprehensive testing across all modules
+- Bug fixes and stability improvements
+- Security audit and hardening
+
+### Entregáveis
+- ✅ Full test coverage report
+- ✅ Bug fixes implemented
+- ✅ Security vulnerabilities addressed
+- ✅ Performance benchmarks met
+
+### Tarefas chave
+- End-to-end testing
+- Load and stress testing
+- Security penetration testing
+- Code review and refactoring
+
+## Alocação da equipe
+
+| Nome                                                   | Tarefas |
+| ------------------------------------------------------ | ------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     |         |
+| [André Gomes](https://github.com/AJCGassassin)         |         |
+| [Cássio Reis](https://github.com/csreis72)             |         |
+| [Guilherme Araujo](https://github.com/GFlyan)          |         |
+| [Márcio Costa](https://github.com/DeM4rcio)            |         |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) |         |
+
+---
+
+## Sprint 6: Polish & Deployment
+**Duração:** 2 weeks  
+**Início:** TBD  
+**Término/Entrega:** TBD
+
+### Objetivos
+- Final polish and UX improvements
+- Prepare production environment
+- Deploy to production
+
+### Entregáveis
+- ✅ Production deployment
+- ✅ User documentation
+- ✅ Admin documentation
+- ✅ Monitoring and logging setup
+
+### Tarefas chave
+- Final UI/UX refinements
+- Set up production infrastructure
+- Create deployment runbooks
+- Implement monitoring and alerting
+
+## Alocação da equipe
+
+| Nome                                                   | Tarefas |
+| ------------------------------------------------------ | ------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     |         |
+| [André Gomes](https://github.com/AJCGassassin)         |         |
+| [Cássio Reis](https://github.com/csreis72)             |         |
+| [Guilherme Araujo](https://github.com/GFlyan)          |         |
+| [Márcio Costa](https://github.com/DeM4rcio)            |         |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) |         |
+
+---
+
+## Milestones
+
+| Milestone | Target Date | Status |
+|-----------|-------------|--------|
+| 🎯 MVP Complete | End of Sprint 2 | 🟡 In Progress |
+| 🎯 Beta Release | End of Sprint 4 | ⚪ Not Started |
+| 🎯 Production Ready | End of Sprint 5 | ⚪ Not Started |
+| 🎯 Public Launch | End of Sprint 6 | ⚪ Not Started |
+
+---
+
+## Status Legend
+- ✅ **Completed** - Task is finished
+- 🟢 **On Track** - Progressing as planned
+- 🟡 **In Progress** - Currently being worked on
+- 🟠 **At Risk** - May need attention
+- 🔴 **Blocked** - Requires intervention
+- ⚪ **Not Started** - Scheduled for future sprint
+
+---
+
+## Notes
+- Each sprint includes a planning session (Monday) and retrospective (Friday)
+- Daily standups at 10:00 AM
+- Sprint reviews with stakeholders at end of each sprint
+- Adjust timelines as needed based on project complexity
+
+---
+
+**Last Updated:** [Date]  
+**Project Manager:** [Name]  
+**Team Size:** [Number]
