@@ -258,9 +258,10 @@ Os principais objetivos deste roadmap são:
 ## Legenda
 - ✅ **Completado**
 - 🟢 **Progredindo como planejado** 
-- 🟡 **Em progresso** - 
+- 🟡 **Em progresso**
 - 🟠 **Atenção**
 - 🔴 **Requer Intervenção**
+- ❌ **Não entregue**
 
 ---
 
