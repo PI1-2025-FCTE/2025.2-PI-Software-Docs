@@ -325,9 +325,8 @@ Os principais objetivos deste roadmap são:
     - ✅ Funcionalidade: Validar comandos antes do envio
     - 🟡 Funcionalidade: Baixar relatório
     - ❌ Funcionalidade: Parar carrinho
-    - ✅ Interface de envio de comandos amigável ao usuário
+    - 🟢 Interface de envio de comandos amigável ao usuário
     - ✅ Versão mais recente integrada na main
-    - ✅ Arquitetura refinada
 
 ## Alocação da equipe
 
@@ -348,33 +347,29 @@ Os principais objetivos deste roadmap são:
 **Término/Entrega:** 24/11/2025
 
 ### Objetivos
-- Finalizar mudanças arquiteturais
-- Testar o código produzido
+- Garantir que a comunicação com o hardware está funcionando
 
 ### Entregáveis
-- ✅ Testes da API
-- ❌ Testes do frontend
-- ✅ Telas melhoradas
-- ✅ Funcionalidade implementada: mapa das trajetórias
-- ✅ Arquitetura refinada
-- ✅ Funcionalidade implementada: comparação entre percurso desejado e executado
-
-### Tarefas chave
-- Final UI/UX refinements
-- Set up production infrastructure
-- Create deployment runbooks
-- Implement monitoring and alerting
+- ✅ Testes da comunicação com hardware
+- ✅ Revisão dos artefatos de documentação
+- ✅ Interface de envio de comandos amigável ao usuário
+- 🟡 Software completo
+    - 🟢 Testes do frontend
+    - 🟡 Funcionalidade: Baixar relatório
+    - ❌ Funcionalidade: Parar carrinho
+    - ✅ Interface de envio de comandos amigável ao usuário
+    - 🟢 Funcionalidade implementada: comparação entre percurso desejado e executado
 
 ## Alocação da equipe
 
-| Nome                                                   | Tarefas              |
-| ------------------------------------------------------ | -------------------- |
-| [Eduardo Sandes](https://github.com/DiceRunner714)     | Testes da API        |
-| [André Gomes](https://github.com/AJCGassassin)         | Mapa das trajetórias |
-| [Cássio Reis](https://github.com/csreis72)             | Testes da API        |
-| [Guilherme Araujo](https://github.com/GFlyan)          | Telas melhoradas     |
-| [Márcio Costa](https://github.com/DeM4rcio)            | Arquitetura refinada |
-| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Testes do frontend   |
+| Nome                                                   | Tarefas                                            |
+| ------------------------------------------------------ | -------------------------------------------------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | Revisão dos artefatos de documentação              |
+| [André Gomes](https://github.com/AJCGassassin)         | Comparação entre percurso desejado e executado     |
+| [Cássio Reis](https://github.com/csreis72)             | Interface de envio de comandos amigável ao usuário |
+| [Guilherme Araujo](https://github.com/GFlyan)          | Baixar relatório                                   |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Testes da comunicação com hardware                 |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Testes do frontend                                 |
 
 ---
 
