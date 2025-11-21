@@ -325,9 +325,8 @@ Os principais objetivos deste roadmap são:
     - ✅ Funcionalidade: Validar comandos antes do envio
     - 🟡 Funcionalidade: Baixar relatório
     - ❌ Funcionalidade: Parar carrinho
-    - ✅ Interface de envio de comandos amigável ao usuário
+    - 🟢 Interface de envio de comandos amigável ao usuário
     - ✅ Versão mais recente integrada na main
-    - ✅ Arquitetura refinada
 
 ## Alocação da equipe
 
@@ -348,79 +347,77 @@ Os principais objetivos deste roadmap são:
 **Término/Entrega:** 24/11/2025
 
 ### Objetivos
-- Finalizar mudanças arquiteturais
-- Testar o código produzido
+- Garantir que a comunicação com o hardware está funcionando
 
 ### Entregáveis
-- ✅ Testes da API
-- ❌ Testes do frontend
-- ✅ Telas melhoradas
-- ✅ Funcionalidade implementada: mapa das trajetórias
-- ✅ Arquitetura refinada
-- ✅ Funcionalidade implementada: comparação entre percurso desejado e executado
-
-### Tarefas chave
-- Final UI/UX refinements
-- Set up production infrastructure
-- Create deployment runbooks
-- Implement monitoring and alerting
+- ✅ Testes da comunicação com hardware
+- ✅ Revisão dos artefatos de documentação
+- ✅ Interface de envio de comandos amigável ao usuário
+- 🟡 Software completo
+    - 🟢 Testes do frontend
+    - 🟡 Funcionalidade: Baixar relatório
+    - ❌ Funcionalidade: Parar carrinho
+    - ✅ Interface de envio de comandos amigável ao usuário
+    - 🟢 Funcionalidade implementada: comparação entre percurso desejado e executado
 
 ## Alocação da equipe
 
-| Nome                                                   | Tarefas              |
-| ------------------------------------------------------ | -------------------- |
-| [Eduardo Sandes](https://github.com/DiceRunner714)     | Testes da API        |
-| [André Gomes](https://github.com/AJCGassassin)         | Mapa das trajetórias |
-| [Cássio Reis](https://github.com/csreis72)             | Testes da API        |
-| [Guilherme Araujo](https://github.com/GFlyan)          | Telas melhoradas     |
-| [Márcio Costa](https://github.com/DeM4rcio)            | Arquitetura refinada |
-| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Testes do frontend   |
+| Nome                                                   | Tarefas                                            |
+| ------------------------------------------------------ | -------------------------------------------------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | Revisão dos artefatos de documentação              |
+| [André Gomes](https://github.com/AJCGassassin)         | Comparação entre percurso desejado e executado     |
+| [Cássio Reis](https://github.com/csreis72)             | Interface de envio de comandos amigável ao usuário |
+| [Guilherme Araujo](https://github.com/GFlyan)          | Baixar relatório                                   |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Testes da comunicação com hardware                 |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Testes do frontend                                 |
 
 ---
 
-## Sprint 11: Testes de integração
-**Duração:** uma semana  
+## Sprint 11: Testes de integração e apresentação
+**Duração:** 10 dias  
 **Início:** 24/10/2025  
 **Término/Entrega:** 03/11/2025
 
 ### Objetivos
-- Finalizar mudanças arquiteturais
-- Testar o código produzido
+- Testar o produto completo e integrado
+- Preparar a apresentação
 
 ### Entregáveis
-- ✅ Testes da API
-- ❌ Testes do frontend
-- ✅ Telas melhoradas
-- ✅ Funcionalidade implementada: mapa das trajetórias
-- ✅ Arquitetura refinada
+- 🟡 Software completo
+    - 🟡 Testes do frontend
+    - 🟡 Funcionalidade: Baixar relatório
+    - 🟡 Funcionalidade: Parar carrinho
+    - 🟡 Funcionalidade implementada: comparação entre percurso desejado e executado
+- ⚪ Slide da apresentação
+- ⚪ Video da apresentação
 
 ### Tarefas chave
-- Final UI/UX refinements
-- Set up production infrastructure
-- Create deployment runbooks
-- Implement monitoring and alerting
+
 
 ## Alocação da equipe
 
-| Nome                                                   | Tarefas              |
-| ------------------------------------------------------ | -------------------- |
-| [Eduardo Sandes](https://github.com/DiceRunner714)     | Testes da API        |
-| [André Gomes](https://github.com/AJCGassassin)         | Mapa das trajetórias |
-| [Cássio Reis](https://github.com/csreis72)             | Testes da API        |
-| [Guilherme Araujo](https://github.com/GFlyan)          | Telas melhoradas     |
-| [Márcio Costa](https://github.com/DeM4rcio)            | Arquitetura refinada |
-| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Testes do frontend   |
+| Nome                                                   | Tarefas |
+| ------------------------------------------------------ | ------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     |         |
+| [André Gomes](https://github.com/AJCGassassin)         |         |
+| [Cássio Reis](https://github.com/csreis72)             |         |
+| [Guilherme Araujo](https://github.com/GFlyan)          |         |
+| [Márcio Costa](https://github.com/DeM4rcio)            |         |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) |         |
 
 ---
 
 ## Milestones
 
-| Milestone | Target Date | Status |
-|-----------|-------------|--------|
-| 🎯 MVP Complete | End of Sprint 2 | 🟡 In Progress |
-| 🎯 Beta Release | End of Sprint 4 | ⚪ Not Started |
-| 🎯 Production Ready | End of Sprint 5 | ⚪ Not Started |
-| 🎯 Public Launch | End of Sprint 6 | ⚪ Not Started |
+| Milestone                                      | Descrição                                                 | Critério de Conclusão                        | Sprint/Entrega                    | Status           |
+| ---------------------------------------------- | --------------------------------------------------------- | -------------------------------------------- | --------------------------------- | ---------------- |
+| ** Planejamento e Requisitos Concluídos**      | Todo o escopo inicial documentado e protótipos definidos  | Todos os artefatos de requisitos completos   | **Fim da Sprint 2 (06/10/2025)**  | 🟢 Concluído    |
+| ** Infraestrutura e Setup Concluídos**         | Ambientes prontos para desenvolvimento com CI/CD aplicado | Docker, repositórios e esteira funcionando   | **Fim da Sprint 4 (20/10/2025)**  | 🟢 Concluído    |
+| ** Funcionalidades de Frontend e API Básicas** | Telas funcionais e endpoints REST integrados              | UI + API operando sem comunicação com ESP    | **Fim da Sprint 5 (27/10/2025)**  | 🟡 Em Progresso |
+| ** Comunicação com Hardware Viável**           | Arquitetura final aprovada e conexão com ESP32 funcional  | MQTT funcionando + testes realizados         | **Fim da Sprint 7 (06/11/2025)**  | ⚪ Não iniciado  |
+| ** Testes e Estabilização do Software**        | Produto testado com requisitos atendidos                  | Software + testes do frontend e backend      | **Fim da Sprint 9 (17/11/2025)**  | ⚪ Não iniciado  |
+| ** Entrega Final do Produto**                  | Produto integrado, funcional e documentado                | Software completo + relatório + apresentação | **Fim da Sprint 11 (03/12/2025)** | ⚪ Não iniciado  |
+
 
 ---
 
@@ -431,6 +428,7 @@ Os principais objetivos deste roadmap são:
 - 🟠 **Atenção**
 - 🔴 **Requer intervenção**
 - ❌ **Não entregue**
+- ⚪ **Não iniciado**
 
 ---
 
