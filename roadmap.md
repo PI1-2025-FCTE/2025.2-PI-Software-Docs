@@ -45,8 +45,6 @@ Os principais objetivos deste roadmap são:
 - Definir formato dos dados entre o software e o hardware;
 - Início do levantamento de requisitos.
 
-### Entregáveis
-
 ### Tarefas chave
 - Se capacitar nas ferramentas desconhecidas;
 - Pequisar sobre a comunicação com o Hardware;
@@ -157,59 +155,60 @@ Os principais objetivos deste roadmap são:
     - ✅ Repositório criado
     - ✅ Estrutura do docker
     - ✅ Estrutura básica do Next.js 
+    - ✅ CI
 - ✅ [Repositório - 2025.2-PI-Service](https://github.com/PI1-2025-FCTE/2025.2-PI-Service)
     - ✅ Repositório criado
     - ✅ Estrutura do docker
     - ✅ Estrutura básica do FastAPI
     - ✅ Tabelas da base de dados criadas
-    - ✅ Conexão com banco de dados 
+    - ✅ Conexão com banco de dados
+    - ✅ CI 
 - ✅ [Fluxo de dados](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/assets/fluxo-de-dados.jpg)
 
 ## Alocação da equipe
 
-| Nome                                                   | Tarefas                                                                                                                   |
-| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| [Eduardo Sandes](https://github.com/DiceRunner714)     | Estrutura do docker (frontend), Estrutura básica do FastAPI, Tabelas da base de dados criadas, Conexão com banco de dados |
-| [André Gomes](https://github.com/AJCGassassin)         | -                                                                                                                         |
-| [Cássio Reis](https://github.com/csreis72)             | Estrutura do docker (backend), Estrutura básica do FastAPI, Tabelas da base de dados criadas, Conexão com banco de dados  |
-| [Guilherme Araujo](https://github.com/GFlyan)          | -                                                                                                                         |
-| [Márcio Costa](https://github.com/DeM4rcio)            | Guias de contribuição, Template issue, Template PR, Repositórios criados, Estrutura básica do Next.js                     |
-| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Fluxo de dados                                                                                                            |
+| Nome                                                   | Tarefas                                                                                                                                  |
+| ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | Estrutura do docker (frontend), Estrutura básica do FastAPI, Tabelas da base de dados criadas, Conexão com banco de dados, CI (frontend) |
+| [André Gomes](https://github.com/AJCGassassin)         | -                                                                                                                                        |
+| [Cássio Reis](https://github.com/csreis72)             | Estrutura do docker (backend), Estrutura básica do FastAPI, Tabelas da base de dados criadas, Conexão com banco de dados, CI (backend)   |
+| [Guilherme Araujo](https://github.com/GFlyan)          | -                                                                                                                                        |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Guias de contribuição, Template issue, Template PR, Repositórios criados, Estrutura básica do Next.js                                    |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Fluxo de dados                                                                                                                           |
 
 ---
 
-## Sprint 5: Testing & Quality Assurance
-**Duração:** 2 weeks  
-**Início:** TBD  
-**Término/Entrega:** TBD
+## Sprint 5: Frontend completo e desenvolvimento da API
+**Duração:** 7 dias  
+**Início:** 20/10/2025  
+**Término/Entrega:** 27/10/2025
 
 ### Objetivos
-- Comprehensive testing across all modules
-- Bug fixes and stability improvements
-- Security audit and hardening
+- Terminar as telas de acordo com o protótipo
+- Criar os endpoints básicos da api
+- Entender como implementar a comunicação com o hardware
 
 ### Entregáveis
-- ✅ Full test coverage report
-- ✅ Bug fixes implemented
-- ✅ Security vulnerabilities addressed
-- ✅ Performance benchmarks met
-
-### Tarefas chave
-- End-to-end testing
-- Load and stress testing
-- Security penetration testing
-- Code review and refactoring
+- ✅ Telas do frontend
+    - ✅ Instrução
+    - ✅ Listagem
+    - ✅ Detalhe
+    - ❌ Testes
+- ✅ Endpoints da API
+    - ✅ Implementados
+    - ✅ Testados
+- ✅ Arquitetura validada (comunicação com a ESP32) 
 
 ## Alocação da equipe
 
-| Nome                                                   | Tarefas |
-| ------------------------------------------------------ | ------- |
-| [Eduardo Sandes](https://github.com/DiceRunner714)     |         |
-| [André Gomes](https://github.com/AJCGassassin)         |         |
-| [Cássio Reis](https://github.com/csreis72)             |         |
-| [Guilherme Araujo](https://github.com/GFlyan)          |         |
-| [Márcio Costa](https://github.com/DeM4rcio)            |         |
-| [Yasmin Albuquerque](https://github.com/YasminDayrell) |         |
+| Nome                                                   | Tarefas                                        |
+| ------------------------------------------------------ | ---------------------------------------------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | Endpoints da API                               |
+| [André Gomes](https://github.com/AJCGassassin)         | Telas: Detalhe, Testes                         |
+| [Cássio Reis](https://github.com/csreis72)             | Endpoints da API                               |
+| [Guilherme Araujo](https://github.com/GFlyan)          | Telas: Instrução, Listagem, Detalhe, Testes    |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Arquitetura validada (comunicação com a ESP32) |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Telas: Instrução, Testes                       |
 
 ---
 
