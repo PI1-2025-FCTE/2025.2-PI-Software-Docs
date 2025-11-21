@@ -189,29 +189,165 @@ Os principais objetivos deste roadmap são:
 - Entender como implementar a comunicação com o hardware
 
 ### Entregáveis
-- ✅ Telas do frontend
-    - ✅ Instrução
-    - ✅ Listagem
-    - ✅ Detalhe
+- 🟢 Telas do frontend
+    - 🟢 Componentes do frontend 
+    - 🟢 Instrução
+    - 🟢 Listagem
+    - 🟢 Detalhe
 - ✅ Endpoints da API
 - 🟢 Arquitetura validada (comunicação com a ESP32) 
 
 ## Alocação da equipe
 
-| Nome                                                   | Tarefas                                        |
-| ------------------------------------------------------ | ---------------------------------------------- |
-| [Eduardo Sandes](https://github.com/DiceRunner714)     | Endpoints da API                               |
-| [André Gomes](https://github.com/AJCGassassin)         | Telas: Detalhe, Testes                         |
-| [Cássio Reis](https://github.com/csreis72)             | Endpoints da API                               |
-| [Guilherme Araujo](https://github.com/GFlyan)          | Telas: Instrução, Listagem, Detalhe, Testes    |
-| [Márcio Costa](https://github.com/DeM4rcio)            | Arquitetura validada (comunicação com a ESP32) |
-| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Telas: Instrução, Testes                       |
+| Nome                                                   | Tarefas                                                      |
+| ------------------------------------------------------ | ------------------------------------------------------------ |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | Endpoints da API                                             |
+| [André Gomes](https://github.com/AJCGassassin)         | Telas: Instrução, Listagem, Detalhe                          |
+| [Cássio Reis](https://github.com/csreis72)             | Endpoints da API                                             |
+| [Guilherme Araujo](https://github.com/GFlyan)          | Telas: Instrução, Listagem, Detalhe, Componentes do frontend |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Arquitetura validada (comunicação com a ESP32)               |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Telas: Instrução, Testes                                     |
 
 ---
 
-## Sprint 6: Testes, refatoração e pesquisa sobre a comunicação com hardware
+## Sprint 6: Testes, frontend completo e pesquisa sobre a comunicação com hardware
 **Duração:** 7 dias  
 **Início:** 27/10/2025  
+**Término/Entrega:** 03/11/2025
+
+### Objetivos
+- Finalizar mudanças arquiteturais
+- Testar o código produzido
+
+### Entregáveis
+- ✅ Testes da API
+- ❌ Testes do frontend
+- ✅ Telas do frontend
+    - ✅ Componentes do frontend
+    - ✅ Instrução
+    - ✅ Listagem
+    - ✅ Detalhe
+- ✅ Arquitetura refinada
+
+## Alocação da equipe
+
+| Nome                                                   | Tarefas                                                      |
+| ------------------------------------------------------ | ------------------------------------------------------------ |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | Testes da API                                                |
+| [André Gomes](https://github.com/AJCGassassin)         | Telas: Instrução, Listagem, Detalhe                          |
+| [Cássio Reis](https://github.com/csreis72)             | Testes da API                                                |
+| [Guilherme Araujo](https://github.com/GFlyan)          | Telas: Instrução, Listagem, Detalhe, Componentes do frontend |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Arquitetura refinada                                         |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Testes do frontend                                           |
+
+---
+
+## Sprint 7 (SEMUNI): Refinamento das telas e implementação da comunicação com harware
+**Duração:** 7 dias  
+**Início:** 03/11/2025  
+**Término/Entrega:** 10/11/2025
+
+### Objetivos
+- Finalizar o frontend
+- Implementar as mudanças na arquitetura
+- Implementar as features de comunicação com a ESP32
+
+### Entregáveis
+- ✅ Frontend integrado com a API
+- 🟡 Testes do frontend
+- ✅ Fila MQTT implementada (mudança na arquitetura)
+    - ✅ Broker MQTT
+    - ✅ ESP mock
+    - ✅ Testes
+    - ✅ Passar o id do trajeto para ESP32
+- ✅ Funcionalidade implementada: mapa das trajetórias
+
+## Alocação da equipe
+
+| Nome                                                   | Tarefas                              |
+| ------------------------------------------------------ | ------------------------------------ |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | ESP mock, Passar o id para ESP32     |
+| [André Gomes](https://github.com/AJCGassassin)         | Mapa das trajetórias                 |
+| [Cássio Reis](https://github.com/csreis72)             | Broker MQTT, ESP mock, Testes (MQTT) |
+| [Guilherme Araujo](https://github.com/GFlyan)          | Frontend integrado com a API         |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Broker MQTT                          |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Testes do frontend                   |
+
+---
+
+## Sprint 8: Escrita do relatório 2
+**Duração:** 7 dias  
+**Início:** 10/11/2025  
+**Término/Entrega:** 17/11/2025
+
+### Objetivos
+- Finalizar mudanças arquiteturais
+- Testar o código produzido
+
+### Entregáveis
+- ✅ Testes da API
+- ❌ Testes do frontend
+- ✅ Telas melhoradas
+- ✅ Funcionalidade implementada: mapa das trajetórias
+- ✅ Arquitetura refinada
+
+### Tarefas chave
+- Final UI/UX refinements
+- Set up production infrastructure
+- Create deployment runbooks
+- Implement monitoring and alerting
+
+## Alocação da equipe
+
+| Nome                                                   | Tarefas              |
+| ------------------------------------------------------ | -------------------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | Testes da API        |
+| [André Gomes](https://github.com/AJCGassassin)         | Mapa das trajetórias |
+| [Cássio Reis](https://github.com/csreis72)             | Testes da API        |
+| [Guilherme Araujo](https://github.com/GFlyan)          | Telas melhoradas     |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Arquitetura refinada |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Testes do frontend   |
+
+---
+
+## Sprint 9: Integração com hardware
+**Duração:** 7 dias  
+**Início:** 17/11/2025  
+**Término/Entrega:** 24/11/2025
+
+### Objetivos
+- Finalizar mudanças arquiteturais
+- Testar o código produzido
+
+### Entregáveis
+- ✅ Testes da API
+- ❌ Testes do frontend
+- ✅ Telas melhoradas
+- ✅ Funcionalidade implementada: mapa das trajetórias
+- ✅ Arquitetura refinada
+
+### Tarefas chave
+- Final UI/UX refinements
+- Set up production infrastructure
+- Create deployment runbooks
+- Implement monitoring and alerting
+
+## Alocação da equipe
+
+| Nome                                                   | Tarefas              |
+| ------------------------------------------------------ | -------------------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | Testes da API        |
+| [André Gomes](https://github.com/AJCGassassin)         | Mapa das trajetórias |
+| [Cássio Reis](https://github.com/csreis72)             | Testes da API        |
+| [Guilherme Araujo](https://github.com/GFlyan)          | Telas melhoradas     |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Arquitetura refinada |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Testes do frontend   |
+
+---
+
+## Sprint 10: Testes de integração
+**Duração:** 9 dias  
+**Início:** 24/10/2025  
 **Término/Entrega:** 03/11/2025
 
 ### Objetivos
@@ -260,12 +396,12 @@ Os principais objetivos deste roadmap são:
 - 🟢 **Progredindo como planejado** 
 - 🟡 **Em progresso**
 - 🟠 **Atenção**
-- 🔴 **Requer Intervenção**
+- 🔴 **Requer intervenção**
 - ❌ **Não entregue**
 
 ---
 
-## Notes
+## Notas
 - Toda sprint inclui uma planning, review e retrospect (feitas durante a aula)
 - São realizadas Daily's segundas, quartas e sextas
 
