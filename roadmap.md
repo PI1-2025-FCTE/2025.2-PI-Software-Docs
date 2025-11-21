@@ -29,7 +29,7 @@ Os principais objetivos deste roadmap são:
 ---
 
 ## Sprint 1: Pesquisa e capacitação
-- **Duração:** 7 dias  
+- **Duração:** uma semana  
 - **Início:** 15/09/2025  
 - **Término/Entrega:** 22/09/2025
 
@@ -110,7 +110,7 @@ Os principais objetivos deste roadmap são:
 ---
 
 ## Sprint 3: Escrita do relatório 1
-**Duração:** 7 dias  
+**Duração:** uma semana   
 **Início:** 06/10/2025  
 **Término/Entrega:** 13/10/2025
 
@@ -138,7 +138,7 @@ Os principais objetivos deste roadmap são:
 ---
 
 ## Sprint 4: Setup de ambiente e Infraestrutura
-**Duração:** 7 dias  
+**Duração:** uma semana 
 **Início:** 13/10/2025  
 **Término/Entrega:** 20/10/2025
 
@@ -179,7 +179,7 @@ Os principais objetivos deste roadmap são:
 ---
 
 ## Sprint 5: Frontend completo e desenvolvimento da API
-**Duração:** 7 dias  
+**Duração:** uma semana   
 **Início:** 20/10/2025  
 **Término/Entrega:** 27/10/2025
 
@@ -211,7 +211,7 @@ Os principais objetivos deste roadmap são:
 ---
 
 ## Sprint 6: Testes, frontend completo e pesquisa sobre a comunicação com hardware
-**Duração:** 7 dias  
+**Duração:** uma semana  
 **Início:** 27/10/2025  
 **Término/Entrega:** 03/11/2025
 
@@ -243,9 +243,9 @@ Os principais objetivos deste roadmap são:
 ---
 
 ## Sprint 7 (SEMUNI): Refinamento das telas e implementação da comunicação com harware
-**Duração:** 7 dias  
+**Duração:** 4 dias  
 **Início:** 03/11/2025  
-**Término/Entrega:** 10/11/2025
+**Término/Entrega:** 06/11/2025
 
 ### Objetivos
 - Finalizar o frontend
@@ -275,8 +275,44 @@ Os principais objetivos deste roadmap são:
 
 ---
 
-## Sprint 8: Escrita do relatório 2
-**Duração:** 7 dias  
+## Sprint 8 (SEMUNI): Escrita do relatório 2
+**Duração:** 4 dias  
+**Início:** 07/11/2025  
+**Término/Entrega:** 10/11/2025
+
+### Objetivos
+- Finalizar mudanças arquiteturais
+- Testar o código produzido
+
+### Entregáveis
+- 🟡 Testes do frontend
+- ✅ Relatório 2
+    - ✅ Correções R1
+        - ✅ Listar histórias de usuário
+        - ✅ Revisar requisitos
+        - ✅ Atualizar protótipo
+        - ✅ Atualizar arquitetura
+    - ✅ Testes de software
+        - ✅ Associar US's com protótipo
+        - ✅ Testes do frontend
+        - ✅ Testes do backend
+
+## Alocação da equipe
+
+| Nome                                                   | Tarefas                                                                          |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | Listar histórias de usuário, Testes do backend, Revisar requisitos               |
+| [André Gomes](https://github.com/AJCGassassin)         | Associar US's com protótipo                                                      |
+| [Cássio Reis](https://github.com/csreis72)             | Testes do backend                                                                |
+| [Guilherme Araujo](https://github.com/GFlyan)          | Associar US's com protótipo, Testes do frontend (relatório), Atualizar protótipo |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Atualizar arquitetura                                                            |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Testes do frontend, Testes do frontend (relatório)                               |
+
+---
+
+
+## Sprint 09: Conclusão do escopo de software
+**Duração:** uma semana  
 **Início:** 10/11/2025  
 **Término/Entrega:** 17/11/2025
 
@@ -310,8 +346,8 @@ Os principais objetivos deste roadmap são:
 
 ---
 
-## Sprint 9: Integração com hardware
-**Duração:** 7 dias  
+## Sprint 10: Integração com hardware
+**Duração:** uma semana  
 **Início:** 17/11/2025  
 **Término/Entrega:** 24/11/2025
 
@@ -345,8 +381,8 @@ Os principais objetivos deste roadmap são:
 
 ---
 
-## Sprint 10: Testes de integração
-**Duração:** 9 dias  
+## Sprint 11: Testes de integração
+**Duração:** uma semana  
 **Início:** 24/10/2025  
 **Término/Entrega:** 03/11/2025
 
