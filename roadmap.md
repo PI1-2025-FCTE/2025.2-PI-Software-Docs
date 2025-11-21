@@ -194,7 +194,7 @@ Os principais objetivos deste roadmap são:
     - ✅ Listagem
     - ✅ Detalhe
 - ✅ Endpoints da API
-- 🟡 Arquitetura validada (comunicação com a ESP32) 
+- 🟢 Arquitetura validada (comunicação com a ESP32) 
 
 ## Alocação da equipe
 
@@ -255,24 +255,17 @@ Os principais objetivos deste roadmap são:
 
 ---
 
-## Status Legend
-- ✅ **Completed** - Task is finished
-- 🟢 **On Track** - Progressing as planned
-- 🟡 **In Progress** - Currently being worked on
-- 🟠 **At Risk** - May need attention
-- 🔴 **Blocked** - Requires intervention
-- ⚪ **Not Started** - Scheduled for future sprint
+## Legenda
+- ✅ **Completado**
+- 🟢 **Progredindo como planejado** 
+- 🟡 **Em progresso** - 
+- 🟠 **Atenção**
+- 🔴 **Requer Intervenção**
 
 ---
 
 ## Notes
-- Each sprint includes a planning session (Monday) and retrospective (Friday)
-- Daily standups at 10:00 AM
-- Sprint reviews with stakeholders at end of each sprint
-- Adjust timelines as needed based on project complexity
+- Toda sprint inclui uma planning, review e retrospect (feitas durante a aula)
+- São realizadas Daily's segundas, quartas e sextas
 
 ---
-
-**Last Updated:** [Date]  
-**Project Manager:** [Name]  
-**Team Size:** [Number]
