@@ -193,11 +193,8 @@ Os principais objetivos deste roadmap são:
     - ✅ Instrução
     - ✅ Listagem
     - ✅ Detalhe
-    - ❌ Testes
 - ✅ Endpoints da API
-    - ✅ Implementados
-    - ✅ Testados
-- ✅ Arquitetura validada (comunicação com a ESP32) 
+- 🟡 Arquitetura validada (comunicação com a ESP32) 
 
 ## Alocação da equipe
 
@@ -212,21 +209,21 @@ Os principais objetivos deste roadmap são:
 
 ---
 
-## Sprint 6: Polish & Deployment
-**Duração:** 2 weeks  
-**Início:** TBD  
-**Término/Entrega:** TBD
+## Sprint 6: Testes, refatoração e pesquisa sobre a comunicação com hardware
+**Duração:** 7 dias  
+**Início:** 27/10/2025  
+**Término/Entrega:** 03/11/2025
 
 ### Objetivos
-- Final polish and UX improvements
-- Prepare production environment
-- Deploy to production
+- Finalizar mudanças arquiteturais
+- Testar o código produzido
 
 ### Entregáveis
-- ✅ Production deployment
-- ✅ User documentation
-- ✅ Admin documentation
-- ✅ Monitoring and logging setup
+- ✅ Testes da API
+- ❌ Testes do frontend
+- ✅ Telas melhoradas
+- ✅ Funcionalidade implementada: mapa das trajetórias
+- ✅ Arquitetura refinada
 
 ### Tarefas chave
 - Final UI/UX refinements
@@ -236,14 +233,14 @@ Os principais objetivos deste roadmap são:
 
 ## Alocação da equipe
 
-| Nome                                                   | Tarefas |
-| ------------------------------------------------------ | ------- |
-| [Eduardo Sandes](https://github.com/DiceRunner714)     |         |
-| [André Gomes](https://github.com/AJCGassassin)         |         |
-| [Cássio Reis](https://github.com/csreis72)             |         |
-| [Guilherme Araujo](https://github.com/GFlyan)          |         |
-| [Márcio Costa](https://github.com/DeM4rcio)            |         |
-| [Yasmin Albuquerque](https://github.com/YasminDayrell) |         |
+| Nome                                                   | Tarefas              |
+| ------------------------------------------------------ | -------------------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | Testes da API        |
+| [André Gomes](https://github.com/AJCGassassin)         | Mapa das trajetórias |
+| [Cássio Reis](https://github.com/csreis72)             | Testes da API        |
+| [Guilherme Araujo](https://github.com/GFlyan)          | Telas melhoradas     |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Arquitetura refinada |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Testes do frontend   |
 
 ---
 
