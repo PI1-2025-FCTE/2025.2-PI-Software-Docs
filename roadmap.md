@@ -17,14 +17,14 @@ Os principais objetivos deste roadmap são:
 
 ## Equipe
 
-| Nome                                                                  | Matrícula | Papel                              |
-| --------------------------------------------------------------------- | --------- | ---------------------------------- |
-| [Eduardo Matheus dos Santos Sandes](https://github.com/DiceRunner714) | 221008024 | Gerente de software e desenvovedor |
-| [André João Cordeiro Gomes](https://github.com/AJCGassassin)          | 211061402 | Desenvovedor                       |
-| [Cássio Sousa dos Reis](https://github.com/csreis72)                  | 221021886 | Desenvovedor                       |
-| [Guilherme Flyan Araujo](https://github.com/GFlyan)                   | 231011408 | Desenvovedor                       |
-| [Márcio Henrique de Sousa Costa](https://github.com/DeM4rcio)         | 221039497 | Desenvovedor                       |
-| [Yasmin Dayrell Albuquerque](https://github.com/YasminDayrell)        | 232014226 | Desenvovedora                      |
+| Nome                                                                  | Matrícula | Papel                                 |
+| --------------------------------------------------------------------- | --------- | ------------------------------------- |
+| [Eduardo Matheus dos Santos Sandes](https://github.com/DiceRunner714) | 221008024 | Gerente de software e desenvovedor    |
+| [Guilherme Flyan Araujo](https://github.com/GFlyan)                   | 231011408 | Subgerente de software e desenvovedor |
+| [André João Cordeiro Gomes](https://github.com/AJCGassassin)          | 211061402 | Desenvovedor                          |
+| [Cássio Sousa dos Reis](https://github.com/csreis72)                  | 221021886 | Desenvovedor                          |
+| [Márcio Henrique de Sousa Costa](https://github.com/DeM4rcio)         | 221039497 | Desenvovedor                          |
+| [Yasmin Dayrell Albuquerque](https://github.com/YasminDayrell)        | 232014226 | Desenvovedora                         |
 
 ---
 
@@ -120,56 +120,61 @@ Os principais objetivos deste roadmap são:
 - ✅ Relatório 1
     - ✅ Descrição do software
     - ✅ Objetivo do projeto
+    - ✅ Justificativa
     - ❌ Indicadores
 - ✅ [Casos de teste](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/casos-de-teste.md)
 - ❌ Fluxo de dados
-
+- ✅ Protótipo interativo
 
 ## Alocação da equipe
 
-| Nome                                                   | Tarefas                               |
-| ------------------------------------------------------ | ------------------------------------- |
-| [Eduardo Sandes](https://github.com/DiceRunner714)     | Descrição do software, Casos de teste |
-| [André Gomes](https://github.com/AJCGassassin)         | -                                     |
-| [Cássio Reis](https://github.com/csreis72)             | Descrição do software, Casos de teste |
-| [Guilherme Araujo](https://github.com/GFlyan)          | -                                     |
-| [Márcio Costa](https://github.com/DeM4rcio)            | Objetivo do projeto, Casos de teste   |
-| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Fluxo de dados, Indicadores           |
+| Nome                                                   | Tarefas                                                           |
+| ------------------------------------------------------ | ----------------------------------------------------------------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | Descrição do software, Casos de teste, revisão final do relatório |
+| [André Gomes](https://github.com/AJCGassassin)         | -                                                                 |
+| [Cássio Reis](https://github.com/csreis72)             | Descrição do software, Casos de teste                             |
+| [Guilherme Araujo](https://github.com/GFlyan)          | Protótipo interativo                                              |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Objetivo do projeto, Casos de teste, Justificativa                |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Fluxo de dados, Indicadores                                       |
 
 ---
 
-## Sprint 4: Advanced Features
-**Duração:** 2 weeks  
-**Início:** TBD  
-**Término/Entrega:** TBD
+## Sprint 4: Setup de ambiente e Infraestrutura
+**Duração:** 7 dias  
+**Início:** 13/10/2025  
+**Término/Entrega:** 20/10/2025
 
 ### Objetivos
-- Add advanced functionality
-- Implement user-requested features
-- Optimize performance
+- Criar os repositórios para o frontend e o backend
+- Subir o docker em cada repositório
+- Criar uma esteira de qualidade CI em ambos os repositórios
 
 ### Entregáveis
-- ✅ Advanced feature set completed
-- ✅ Performance optimizations
-- ✅ Integration tests
-- ✅ User feedback incorporated
-
-### Tarefas chave
-- Implement search and filtering
-- Add notification system
-- Optimize database queries
-- Implement caching strategy
+- ✅ Guias de contribuição
+- ✅ Template issue
+- ✅ Template PR
+- ✅ [Repositório - 2025.2-PI-Front](https://github.com/PI1-2025-FCTE/2025.2-PI-Front)
+    - ✅ Repositório criado
+    - ✅ Estrutura do docker
+    - ✅ Estrutura básica do Next.js 
+- ✅ [Repositório - 2025.2-PI-Service](https://github.com/PI1-2025-FCTE/2025.2-PI-Service)
+    - ✅ Repositório criado
+    - ✅ Estrutura do docker
+    - ✅ Estrutura básica do FastAPI
+    - ✅ Tabelas da base de dados criadas
+    - ✅ Conexão com banco de dados 
+- ✅ [Fluxo de dados](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/assets/fluxo-de-dados.jpg)
 
 ## Alocação da equipe
 
-| Nome                                                   | Tarefas |
-| ------------------------------------------------------ | ------- |
-| [Eduardo Sandes](https://github.com/DiceRunner714)     |         |
-| [André Gomes](https://github.com/AJCGassassin)         |         |
-| [Cássio Reis](https://github.com/csreis72)             |         |
-| [Guilherme Araujo](https://github.com/GFlyan)          |         |
-| [Márcio Costa](https://github.com/DeM4rcio)            |         |
-| [Yasmin Albuquerque](https://github.com/YasminDayrell) |         |
+| Nome                                                   | Tarefas                                                                                                                   |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | Estrutura do docker (frontend), Estrutura básica do FastAPI, Tabelas da base de dados criadas, Conexão com banco de dados |
+| [André Gomes](https://github.com/AJCGassassin)         | -                                                                                                                         |
+| [Cássio Reis](https://github.com/csreis72)             | Estrutura do docker (backend), Estrutura básica do FastAPI, Tabelas da base de dados criadas, Conexão com banco de dados  |
+| [Guilherme Araujo](https://github.com/GFlyan)          | -                                                                                                                         |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Guias de contribuição, Template issue, Template PR, Repositórios criados, Estrutura básica do Next.js                     |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Fluxo de dados                                                                                                            |
 
 ---
 
