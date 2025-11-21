@@ -409,12 +409,15 @@ Os principais objetivos deste roadmap são:
 
 ## Milestones
 
-| Milestone | Target Date | Status |
-|-----------|-------------|--------|
-| 🎯 MVP Complete | End of Sprint 2 | 🟡 In Progress |
-| 🎯 Beta Release | End of Sprint 4 | ⚪ Not Started |
-| 🎯 Production Ready | End of Sprint 5 | ⚪ Not Started |
-| 🎯 Public Launch | End of Sprint 6 | ⚪ Not Started |
+| Milestone                                      | Descrição                                                 | Critério de Conclusão                        | Sprint/Entrega                    | Status           |
+| ---------------------------------------------- | --------------------------------------------------------- | -------------------------------------------- | --------------------------------- | ---------------- |
+| ** Planejamento e Requisitos Concluídos**      | Todo o escopo inicial documentado e protótipos definidos  | Todos os artefatos de requisitos completos   | **Fim da Sprint 2 (06/10/2025)**  | 🟢 Concluído    |
+| ** Infraestrutura e Setup Concluídos**         | Ambientes prontos para desenvolvimento com CI/CD aplicado | Docker, repositórios e esteira funcionando   | **Fim da Sprint 4 (20/10/2025)**  | 🟢 Concluído    |
+| ** Funcionalidades de Frontend e API Básicas** | Telas funcionais e endpoints REST integrados              | UI + API operando sem comunicação com ESP    | **Fim da Sprint 5 (27/10/2025)**  | 🟡 Em Progresso |
+| ** Comunicação com Hardware Viável**           | Arquitetura final aprovada e conexão com ESP32 funcional  | MQTT funcionando + testes realizados         | **Fim da Sprint 7 (06/11/2025)**  | ⚪ Não iniciado  |
+| ** Testes e Estabilização do Software**        | Produto testado com requisitos atendidos                  | Software + testes do frontend e backend      | **Fim da Sprint 9 (17/11/2025)**  | ⚪ Não iniciado  |
+| ** Entrega Final do Produto**                  | Produto integrado, funcional e documentado                | Software completo + relatório + apresentação | **Fim da Sprint 11 (03/12/2025)** | ⚪ Não iniciado  |
+
 
 ---
 
@@ -425,6 +428,7 @@ Os principais objetivos deste roadmap são:
 - 🟠 **Atenção**
 - 🔴 **Requer intervenção**
 - ❌ **Não entregue**
+- ⚪ **Não iniciado**
 
 ---
 
