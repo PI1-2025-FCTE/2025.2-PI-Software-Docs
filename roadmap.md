@@ -373,38 +373,37 @@ Os principais objetivos deste roadmap são:
 
 ---
 
-## Sprint 11: Testes de integração
-**Duração:** uma semana  
+## Sprint 11: Testes de integração e apresentação
+**Duração:** 10 dias  
 **Início:** 24/10/2025  
 **Término/Entrega:** 03/11/2025
 
 ### Objetivos
-- Finalizar mudanças arquiteturais
-- Testar o código produzido
+- Testar o produto completo e integrado
+- Preparar a apresentação
 
 ### Entregáveis
-- ✅ Testes da API
-- ❌ Testes do frontend
-- ✅ Telas melhoradas
-- ✅ Funcionalidade implementada: mapa das trajetórias
-- ✅ Arquitetura refinada
+- 🟡 Software completo
+    - 🟡 Testes do frontend
+    - 🟡 Funcionalidade: Baixar relatório
+    - 🟡 Funcionalidade: Parar carrinho
+    - 🟡 Funcionalidade implementada: comparação entre percurso desejado e executado
+- ⚪ Slide da apresentação
+- ⚪ Video da apresentação
 
 ### Tarefas chave
-- Final UI/UX refinements
-- Set up production infrastructure
-- Create deployment runbooks
-- Implement monitoring and alerting
+
 
 ## Alocação da equipe
 
-| Nome                                                   | Tarefas              |
-| ------------------------------------------------------ | -------------------- |
-| [Eduardo Sandes](https://github.com/DiceRunner714)     | Testes da API        |
-| [André Gomes](https://github.com/AJCGassassin)         | Mapa das trajetórias |
-| [Cássio Reis](https://github.com/csreis72)             | Testes da API        |
-| [Guilherme Araujo](https://github.com/GFlyan)          | Telas melhoradas     |
-| [Márcio Costa](https://github.com/DeM4rcio)            | Arquitetura refinada |
-| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Testes do frontend   |
+| Nome                                                   | Tarefas |
+| ------------------------------------------------------ | ------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     |         |
+| [André Gomes](https://github.com/AJCGassassin)         |         |
+| [Cássio Reis](https://github.com/csreis72)             |         |
+| [Guilherme Araujo](https://github.com/GFlyan)          |         |
+| [Márcio Costa](https://github.com/DeM4rcio)            |         |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) |         |
 
 ---
 
