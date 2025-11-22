@@ -1,5 +1,23 @@
 # Roadmap
 
+## Links
+
+- [Introdução](#introdução)
+- [Objetivos](#objetivos)
+- [Equipe](#equipe)
+- [Sprint 1](#sprint-1-pesquisa-e-capacitação)
+- [Sprint 2](#sprint-2-levantamento-priorização-e-modelagem-de-requisitos-além-de-prototipação)
+- [Sprint 3](#sprint-3-escrita-do-relatório-1)
+- [Sprint 4](#sprint-4-setup-de-ambiente-e-infraestrutura)
+- [Sprint 5](#sprint-5-frontend-completo-e-desenvolvimento-da-api)
+- [Sprint 6](#sprint-6-testes-frontend-completo-e-pesquisa-sobre-a-comunicação-com-hardware)
+- [Sprint 7](#sprint-7-semuni-refinamento-das-telas-e-implementação-da-comunicação-com-harware)
+- [Sprint 8](#sprint-8-semuni-escrita-do-relatório-2)
+- [Sprint 9](#sprint-09-conclusão-do-escopo-de-software)
+- [Sprint 10](#sprint-10-integração-com-hardware)
+- [Sprint 11](#sprint-11-testes-de-integração-e-apresentação)
+- [Visualização do Roadmap](#visualização-do-roadmap)
+
 ## Introdução
 
 <div align="justify">&emsp;&emsp;
@@ -355,7 +373,7 @@ Os principais objetivos deste roadmap são:
 - ✅ Interface de envio de comandos amigável ao usuário
 - 🟡 Software completo
     - 🟢 Testes do frontend
-    - 🟡 Funcionalidade: Baixar relatório
+    - ✅ Funcionalidade: Baixar relatório
     - ❌ Funcionalidade: Parar carrinho
     - ✅ Interface de envio de comandos amigável ao usuário
     - 🟢 Funcionalidade implementada: comparação entre percurso desejado e executado
@@ -383,11 +401,11 @@ Os principais objetivos deste roadmap são:
 - Preparar a apresentação
 
 ### Entregáveis
-- 🟡 Software completo
+- 🟢 Software completo
     - 🟡 Testes do frontend
-    - 🟡 Funcionalidade: Baixar relatório
     - 🟡 Funcionalidade: Parar carrinho
     - 🟡 Funcionalidade implementada: comparação entre percurso desejado e executado
+    - 🟡 Mostrar o tempo e a distância percorrida na tela de detalhe de percurso
 - ⚪ Extra: otimização de strings de instrução
 - ⚪ Slide da apresentação
 - ⚪ Video da apresentação
