@@ -448,11 +448,11 @@ gantt
 
 | Milestone                                      | Descrição                                                 | Critério de Conclusão                        | Sprint/Entrega                    | Status           |
 | ---------------------------------------------- | --------------------------------------------------------- | -------------------------------------------- | --------------------------------- | ---------------- |
-| ** Planejamento e Requisitos Concluídos**      | Todo o escopo inicial documentado e protótipos definidos  | Todos os artefatos de requisitos completos   | **Fim da Sprint 2 (06/10/2025)**  | 🟢 Concluído    |
-| ** Infraestrutura e Setup Concluídos**         | Ambientes prontos para desenvolvimento com CI/CD aplicado | Docker, repositórios e esteira funcionando   | **Fim da Sprint 4 (20/10/2025)**  | 🟢 Concluído    |
-| ** Funcionalidades de Frontend e API Básicas** | Telas funcionais e endpoints REST integrados              | UI + API operando sem comunicação com ESP    | **Fim da Sprint 5 (27/10/2025)**  | 🟡 Em Progresso |
-| ** Comunicação com Hardware Viável**           | Arquitetura final aprovada e conexão com ESP32 funcional  | MQTT funcionando + testes realizados         | **Fim da Sprint 7 (06/11/2025)**  | ⚪ Não iniciado  |
-| ** Testes e Estabilização do Software**        | Produto testado com requisitos atendidos                  | Software + testes do frontend e backend      | **Fim da Sprint 9 (17/11/2025)**  | ⚪ Não iniciado  |
+| ** Planejamento e Requisitos Concluídos**      | Todo o escopo inicial documentado e protótipos definidos  | Todos os artefatos de requisitos completos   | **Fim da Sprint 2 (06/10/2025)**  | ✅ Concluído     |
+| ** Infraestrutura e Setup Concluídos**         | Ambientes prontos para desenvolvimento com CI/CD aplicado | Docker, repositórios e esteira funcionando   | **Fim da Sprint 4 (20/10/2025)**  | ✅ Concluído     |
+| ** Funcionalidades de Frontend e API Básicas** | Telas funcionais e endpoints REST integrados              | UI + API operando sem comunicação com ESP    | **Fim da Sprint 5 (27/10/2025)**  | ✅ Concluído     |
+| ** Comunicação com Hardware Viável**           | Arquitetura final aprovada e conexão com ESP32 funcional  | MQTT funcionando + testes realizados         | **Fim da Sprint 7 (06/11/2025)**  | ✅ Concluído     |
+| ** Testes e Estabilização do Software**        | Produto testado com requisitos atendidos                  | Software + testes do frontend e backend      | **Fim da Sprint 9 (17/11/2025)**  | 🟡 Em Progresso  |
 | ** Entrega Final do Produto**                  | Produto integrado, funcional e documentado                | Software completo + relatório + apresentação | **Fim da Sprint 11 (03/12/2025)** | ⚪ Não iniciado  |
 
 
