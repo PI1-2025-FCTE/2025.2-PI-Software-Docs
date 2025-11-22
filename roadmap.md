@@ -421,7 +421,7 @@ gantt
     Sprint 2 - Requisitos e Modelagem           :done,    s2, 22/09/2025, 14d
     Sprint 3 - Relatório 1                      :done,    s3, 06/10/2025, 7d
     
-    section Fase 2: Infraestrutura
+    section Fase 2: Infra/Desenvolvimento
     Sprint 4 - Setup e Ambiente                 :done,    s4, 13/10/2025, 7d
     Sprint 5 - Frontend e API                   :active,  s5, 20/10/2025, 7d
     Sprint 6 - Testes e Arquitetura             :active,  s6, 27/10/2025, 7d
