@@ -47,7 +47,7 @@ Mais detalhes em [Link](./cronograma.md)
 
 ## Modelagem Banco de Dados
 
-![diagrama](./diagrama-entidade-relacionamento.brM3)
+![diagrama](./assets/diagrama-entidade-relacionamento.png)
 
 ---
 
