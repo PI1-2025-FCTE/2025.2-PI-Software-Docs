@@ -388,8 +388,10 @@ Os principais objetivos deste roadmap são:
     - 🟡 Funcionalidade: Baixar relatório
     - 🟡 Funcionalidade: Parar carrinho
     - 🟡 Funcionalidade implementada: comparação entre percurso desejado e executado
+- ⚪ Extra: otimização de strings de instrução
 - ⚪ Slide da apresentação
 - ⚪ Video da apresentação
+- ⚪ Correções do relatório
 
 ### Tarefas chave
 
