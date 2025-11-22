@@ -4,7 +4,7 @@ Neste espaço encontram-se reunidos todos os artefatos produzidos durante as eta
 
 ---
 
-## Cronograma Seguido
+<!-- ## Cronograma Seguido
 
 | Semana | Foco Principal | Requisitos Atendidos |
 |--------|----------------|---------------------|
@@ -20,7 +20,7 @@ Neste espaço encontram-se reunidos todos os artefatos produzidos durante as eta
 Mais detalhes em [Link](./cronograma.md)
 
 
----
+--- -->
 
 
 ## Arquitetura final
@@ -75,6 +75,37 @@ Mais detalhes em [Link](./backward-from.md)
 ## Roadmap Final
 
 Aqui se encontra o Roadmap final de todas as atividades realizadas no decorrer da execução do projeto, contendo suas participações, atribuições e tempo de sprints corridos.
+
+```mermaid
+gantt
+    title Roadmap do Projeto - 2025.2
+    dateFormat  DD/MM/YYYY
+    
+    section Fase 1: Fundação
+    Sprint 1 - Pesquisa e Capacitação           :done,    s1, 15/09/2025, 7d
+    Sprint 2 - Requisitos e Modelagem           :done,    s2, 22/09/2025, 14d
+    Sprint 3 - Relatório 1                      :done,    s3, 06/10/2025, 7d
+    
+    section Fase 2: Infra/Desenvolvimento
+    Sprint 4 - Setup e Ambiente                 :done,    s4, 13/10/2025, 7d
+    Sprint 5 - Frontend e API                   :active,  s5, 20/10/2025, 7d
+    Sprint 6 - Testes e Arquitetura             :active,  s6, 27/10/2025, 7d
+    
+    section Fase 3: Integração
+    Sprint 7 - Comunicação Hardware (SEMUNI)    :crit,    s7, 03/11/2025, 4d
+    Sprint 8 - Relatório 2 (SEMUNI)             :crit,    s8, 07/11/2025, 4d
+    Sprint 9 - Conclusão do Escopo              :         s9, 10/11/2025, 7d
+    
+    section Fase 4: Finalização
+    Sprint 10 - Integração com Hardware         :         s10, 17/11/2025, 7d
+    Sprint 11 - Testes Finais e Apresentação    :         s11, 24/11/2025, 10d
+    
+    section Marcos Principais
+    Requisitos Completos                        :milestone, m1, 06/10/2025, 0d
+    Infraestrutura Pronta                       :milestone, m2, 20/10/2025, 0d
+    Comunicação Hardware                        :milestone, m3, 06/11/2025, 0d
+    Produto Final                               :milestone, m4, 03/12/2025, 0d
+```
 
 Mais detalhes em [Link](./roadmap.md)
 
