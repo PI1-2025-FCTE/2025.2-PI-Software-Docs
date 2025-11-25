@@ -239,7 +239,7 @@ Os principais objetivos deste roadmap são:
 
 ### Entregáveis
 - ✅ Testes da API
-- ❌ Testes do frontend
+- ❌ Testes do frontend (e2e)
 - ✅ Telas do frontend
     - ✅ Componentes do frontend
     - ✅ Instrução
@@ -272,7 +272,7 @@ Os principais objetivos deste roadmap são:
 
 ### Entregáveis
 - ✅ Frontend integrado com a API
-- 🟡 Testes do frontend
+- 🟡 Testes do frontend (e2e)
 - ✅ Fila MQTT implementada (mudança na arquitetura)
     - ✅ Broker MQTT
     - ✅ ESP mock
@@ -303,7 +303,7 @@ Os principais objetivos deste roadmap são:
 - Testar o código produzido
 
 ### Entregáveis
-- 🟡 Testes do frontend
+- 🟡 Testes do frontend (e2e)
 - ✅ Relatório 2
     - ✅ Correções R1
         - ✅ Listar histórias de usuário
@@ -339,7 +339,7 @@ Os principais objetivos deste roadmap são:
 
 ### Entregáveis
 - 🟡 Software completo
-    - 🟡 Testes do frontend
+    - 🟡 Testes do frontend (e2e)
     - ✅ Funcionalidade: Validar comandos antes do envio
     - 🟡 Funcionalidade: Baixar relatório
     - ❌ Funcionalidade: Parar carrinho
@@ -372,7 +372,7 @@ Os principais objetivos deste roadmap são:
 - ✅ Revisão dos artefatos de documentação
 - ✅ Interface de envio de comandos amigável ao usuário
 - 🟡 Software completo
-    - 🟢 Testes do frontend
+    - 🟢 Testes do frontend (e2e)
     - ✅ Funcionalidade: Baixar relatório
     - ❌ Funcionalidade: Parar carrinho
     - ✅ Interface de envio de comandos amigável ao usuário
@@ -402,7 +402,8 @@ Os principais objetivos deste roadmap são:
 
 ### Entregáveis
 - 🟢 Software completo
-    - 🟡 Testes do frontend
+    - 🟡 Testes do frontend (e2e)
+    - ⚪ Testes do frontend (componente)
     - 🟡 Funcionalidade: Parar carrinho
     - 🟡 Funcionalidade implementada: comparação entre percurso desejado e executado
     - 🟡 Mostrar o tempo e a distância percorrida na tela de detalhe de percurso
@@ -410,20 +411,21 @@ Os principais objetivos deste roadmap são:
 - ⚪ Slide da apresentação
 - ⚪ Video da apresentação
 - ⚪ Correções do relatório
+- ⚪ Pesquisa: requisitos computacionais mínimos para rodar a aplicação
 
 ### Tarefas chave
-
+- Testes de integração
 
 ## Alocação da equipe
 
-| Nome                                                   | Tarefas |
-| ------------------------------------------------------ | ------- |
-| [Eduardo Sandes](https://github.com/DiceRunner714)     |         |
-| [André Gomes](https://github.com/AJCGassassin)         |         |
-| [Cássio Reis](https://github.com/csreis72)             |         |
-| [Guilherme Araujo](https://github.com/GFlyan)          |         |
-| [Márcio Costa](https://github.com/DeM4rcio)            |         |
-| [Yasmin Albuquerque](https://github.com/YasminDayrell) |         |
+| Nome                                                   | Tarefas                                                                                     |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
+| [Eduardo Sandes](https://github.com/DiceRunner714)     | Testes de integração, Video, Correções do relatório                                         |
+| [André Gomes](https://github.com/AJCGassassin)         | Slides, comparação entre percurso desejado e executado, Parar carrinho                      |
+| [Cássio Reis](https://github.com/csreis72)             | Testes do frontend (componente), tempo e a distância na tela de detalhe de percurso, Slides |
+| [Guilherme Araujo](https://github.com/GFlyan)          | Slides, Parar carrinho, PEsquisa                                                            |
+| [Márcio Costa](https://github.com/DeM4rcio)            | Testes de integração, Slides, Parar carrinho                                                |
+| [Yasmin Albuquerque](https://github.com/YasminDayrell) | Slides, Testes do frontend (e2e)                                                            |
 
 ---
 
@@ -470,8 +472,8 @@ gantt
 | ** Infraestrutura e Setup Concluídos**         | Ambientes prontos para desenvolvimento com CI/CD aplicado | Docker, repositórios e esteira funcionando   | **Fim da Sprint 4 (20/10/2025)**  | ✅ Concluído     |
 | ** Funcionalidades de Frontend e API Básicas** | Telas funcionais e endpoints REST integrados              | UI + API operando sem comunicação com ESP    | **Fim da Sprint 5 (27/10/2025)**  | ✅ Concluído     |
 | ** Comunicação com Hardware Viável**           | Arquitetura final aprovada e conexão com ESP32 funcional  | MQTT funcionando + testes realizados         | **Fim da Sprint 7 (06/11/2025)**  | ✅ Concluído     |
-| ** Testes e Estabilização do Software**        | Produto testado com requisitos atendidos                  | Software + testes do frontend e backend      | **Fim da Sprint 9 (17/11/2025)**  | 🟡 Em Progresso  |
-| ** Entrega Final do Produto**                  | Produto integrado, funcional e documentado                | Software completo + relatório + apresentação | **Fim da Sprint 11 (03/12/2025)** | ⚪ Não iniciado  |
+| ** Testes e Estabilização do Software**        | Produto testado com requisitos atendidos                  | Software + testes do frontend e backend      | **Fim da Sprint 9 (17/11/2025)**  | ✅ Concluído  |
+| ** Entrega Final do Produto**                  | Produto integrado, funcional e documentado                | Software completo + relatório + apresentação | **Fim da Sprint 11 (03/12/2025)** | 🟢 Progredindo como planejado  |
 
 
 ---
