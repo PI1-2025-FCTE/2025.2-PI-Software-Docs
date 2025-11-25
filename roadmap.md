@@ -239,7 +239,7 @@ Os principais objetivos deste roadmap são:
 
 ### Entregáveis
 - ✅ Testes da API
-- ❌ Testes do frontend (e2e)
+- ⚪ Testes do frontend (e2e)
 - ✅ Telas do frontend
     - ✅ Componentes do frontend
     - ✅ Instrução
