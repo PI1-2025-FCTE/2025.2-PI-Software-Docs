@@ -38,7 +38,7 @@ A metodologia adotada segue o padrão ágil, onde as histórias de usuário são
 
 #### Critérios de Aceitação
 - [x] O sistema deve exibir os comandos executados e suas sequências.  
-- [ ] O sistema deve exibir parâmetros como distância percorrida, desenho de trajetória e tempo.
+- [x] O sistema deve exibir parâmetros como distância percorrida, desenho de trajetória e tempo.
 - [x] A trajetória deve mostrar onde o objeto foi depositado.   
 
 ---

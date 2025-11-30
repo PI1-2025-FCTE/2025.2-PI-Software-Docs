@@ -403,15 +403,15 @@ Os principais objetivos deste roadmap são:
 ### Entregáveis
 - 🟢 Software completo
     - ✅ Testes do frontend (e2e)
-    - ⚪ Testes do frontend (componente)
+    - ✅ Testes do frontend (componente)
     - 🟡 Funcionalidade: Parar carrinho
     - ✅ Funcionalidade implementada: comparação entre percurso desejado e executado
-    - 🟡 Mostrar o tempo e a distância percorrida na tela de detalhe de percurso
+    - ✅ Mostrar o tempo e a distância percorrida na tela de detalhe de percurso
 - ❌ Extra: otimização de strings de instrução
-- ⚪ Slide da apresentação
+- 🟢 Slide da apresentação
 - ⚪ Video da apresentação
 - ⚪ Correções do relatório
-- ⚪ Pesquisa: requisitos computacionais mínimos para rodar a aplicação
+- ✅ Pesquisa: requisitos computacionais mínimos para rodar a aplicação
 
 ### Tarefas chave
 - Testes de integração
@@ -423,7 +423,7 @@ Os principais objetivos deste roadmap são:
 | [Eduardo Sandes](https://github.com/DiceRunner714)     | Testes de integração, Video, Correções do relatório                                         |
 | [André Gomes](https://github.com/AJCGassassin)         | Slides, comparação entre percurso desejado e executado, Parar carrinho                      |
 | [Cássio Reis](https://github.com/csreis72)             | Testes do frontend (componente), tempo e a distância na tela de detalhe de percurso, Slides |
-| [Guilherme Araujo](https://github.com/GFlyan)          | Slides, Parar carrinho, PEsquisa                                                            |
+| [Guilherme Araujo](https://github.com/GFlyan)          | Slides, Parar carrinho, Pesquisa                                                            |
 | [Márcio Costa](https://github.com/DeM4rcio)            | Testes de integração, Slides, Parar carrinho                                                |
 | [Yasmin Albuquerque](https://github.com/YasminDayrell) | Slides, Testes do frontend (e2e)                                                            |
 
