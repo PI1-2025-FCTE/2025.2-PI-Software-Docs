@@ -408,7 +408,7 @@ Os principais objetivos deste roadmap são:
     - ✅ Funcionalidade implementada: comparação entre percurso desejado e executado
     - ✅ Mostrar o tempo e a distância percorrida na tela de detalhe de percurso
 - ❌ Extra: otimização de strings de instrução
-- 🟢 Slide da apresentação
+- ✅ Slide da apresentação
 - ⚪ Video da apresentação
 - ⚪ Correções do relatório
 - ✅ Pesquisa: requisitos computacionais mínimos para rodar a aplicação
