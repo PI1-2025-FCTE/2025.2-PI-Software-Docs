@@ -82,20 +82,8 @@ A metodologia adotada segue o padrão ágil, onde as histórias de usuário são
 **Como** usuário, **quero** parar a execução de uma trajetória em andamento **para** interromper imediatamente o movimento do carrinho.
 
 #### Critérios de Aceitação
-- [ ] O sistema deve enviar um comando de parada imediata ao carrinho.  
-- [ ] O carrinho deve interromper todos os movimentos em execução.  
-- [ ] O sistema deve confirmar visualmente que o carrinho foi parado.
-- [ ] O sistema deve processar a trajetória encerrada, salvá-la e gerar suas análises normalmente.
-
----
-
-### USX - Nome da História de Usuário
-
-**Como** [tipo de usuário], **quero** [funcionalidade desejada] **para** [benefício ou objetivo alcançado]
-
-#### Critérios de Aceitação
-- [ ] Critério 1  
-- [ ] Critério 2  
-- [ ] Critério 3 
+- [x] O sistema deve enviar um comando de parada imediata ao carrinho.  
+- [x] O carrinho deve interromper todos os movimentos em execução.  
+- [x] O sistema deve processar a trajetória encerrada, salvá-la e gerar suas análises normalmente.
 
 ---
