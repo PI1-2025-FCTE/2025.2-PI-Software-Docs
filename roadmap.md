@@ -339,7 +339,7 @@ Os principais objetivos deste roadmap são:
 
 ### Entregáveis
 - 🟡 Software completo
-    - 🟡 Testes do frontend (e2e)
+    - 🟠 Testes do frontend (e2e)
     - ✅ Funcionalidade: Validar comandos antes do envio
     - 🟡 Funcionalidade: Baixar relatório
     - ❌ Funcionalidade: Parar carrinho
@@ -401,15 +401,15 @@ Os principais objetivos deste roadmap são:
 - Preparar a apresentação
 
 ### Entregáveis
-- 🟢 Software completo
+- ✅ Software completo
     - ✅ Testes do frontend (e2e)
     - ✅ Testes do frontend (componente)
-    - 🟡 Funcionalidade: Parar carrinho
+    - ✅ Funcionalidade: Parar carrinho
     - ✅ Funcionalidade implementada: comparação entre percurso desejado e executado
     - ✅ Mostrar o tempo e a distância percorrida na tela de detalhe de percurso
 - ❌ Extra: otimização de strings de instrução
 - ✅ Slide da apresentação
-- ⚪ Video da apresentação
+- ✅ Video da apresentação
 - ⚪ Correções do relatório
 - ✅ Pesquisa: requisitos computacionais mínimos para rodar a aplicação
 
