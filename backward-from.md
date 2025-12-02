@@ -54,3 +54,11 @@ O resultado é um diagrama que mostra, de forma hierárquica e encadeada, as ati
 | RNF16 | A interface deve ser compatível com os principais navegadores caso utilize uma camada web local.                        | [Requisitos Não Funcionais](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/requisitos-nao-funcionais.md) | Cumprido     | Alta       |
 | RNF18 | Tornar a interface web responsiva, adaptando-se a diferentes tamanhos de tela.                                          | [MoSCoW](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/moscow.md)                                       | Cumprido     | Média      |
 | RNF19 | Manter comunicação contínua e estável entre a interface e o carrinho durante a operação.                                | [MoSCoW](https://github.com/PI1-2025-FCTE/2025.2-PI-Software-Docs/blob/main/moscow.md)                                       | Cumprido     | Média      |
+
+---
+
+| Requisitos     | Quantidade | Implementado | Porcentagem                                 |
+| -------------- | ---------- | ------------ | ------------------------------------------- |
+| Funcionais     | 14         | 14           | <strong style="color: green;">100%</strong> |
+| Não Funcionais | 14         | 14           | <strong style="color: green;">100%</strong> |
+| Total          | 28         | 28           | <strong style="color: green;">100%</strong> |
