@@ -57,8 +57,12 @@ O resultado é um diagrama que mostra, de forma hierárquica e encadeada, as ati
 
 ---
 
-| Requisitos     | Quantidade | Implementado | Porcentagem                                 |
-| -------------- | ---------- | ------------ | ------------------------------------------- |
-| Funcionais     | 14         | 14           | <strong style="color: green;">100%</strong> |
-| Não Funcionais | 14         | 14           | <strong style="color: green;">100%</strong> |
-| Total          | 28         | 28           | <strong style="color: green;">100%</strong> |
+| Requisitos            | Quantidade | Implementado | Porcentagem                                 |
+| --------------------- | ---------- | ------------ | ------------------------------------------- |
+| Funcionais            | 14         | 14           | <strong style="color: green;">100%</strong> |
+| Não Funcionais        | 14         | 14           | <strong style="color: green;">100%</strong> |
+| Total                 | 28         | 28           | <strong style="color: green;">100%</strong> |
+
+|                      | Quantidade | Concluída | Porcentagem                                 |
+| -------------------- | ---------- | --------- | ------------------------------------------- |
+| Histórias de Usuário | 6          | 6         | <strong style="color: green;">100%</strong> |
