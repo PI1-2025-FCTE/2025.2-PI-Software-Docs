@@ -21,7 +21,23 @@ Mais detalhes em [Link](./cronograma.md)
 
 
 --- -->
+## Andamento do projeto
 
+| Status do projeto |
+| ----------------- |
+| ✅ Concluído      |
+
+| Requisitos            | Quantidade | Implementado | Porcentagem                                 |
+| --------------------- | ---------- | ------------ | ------------------------------------------- |
+| Funcionais            | 14         | 14           | <strong style="color: green;">100%</strong> |
+| Não Funcionais        | 14         | 14           | <strong style="color: green;">100%</strong> |
+| Total                 | 28         | 28           | <strong style="color: green;">100%</strong> |
+
+|                      | Quantidade | Concluída | Porcentagem                                 |
+| -------------------- | ---------- | --------- | ------------------------------------------- |
+| Histórias de Usuário | 6          | 6         | <strong style="color: green;">100%</strong> |
+
+---
 
 ## Arquitetura final
 
@@ -105,8 +121,8 @@ gantt
     Infraestrutura Pronta                       :milestone, m2, 20/10/2025, 0d
     Comunicação Hardware                        :milestone, m3, 06/11/2025, 0d
     Produto Final                               :milestone, m4, 03/12/2025, 0d
+    Encerramento do Projeto                     :milestone, m4, 05/12/2025, 0d
 ```
 
 Mais detalhes em [Link](./roadmap.md)
-
 
