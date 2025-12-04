@@ -410,7 +410,7 @@ Os principais objetivos deste roadmap são:
 - ❌ Extra: otimização de strings de instrução
 - ✅ Slide da apresentação
 - ✅ Video da apresentação
-- ⚪ Correções do relatório
+- ✅ Correções do relatório
 - ✅ Pesquisa: requisitos computacionais mínimos para rodar a aplicação
 
 ### Tarefas chave
@@ -460,6 +460,7 @@ gantt
     Infraestrutura Pronta                       :milestone, m2, 20/10/2025, 0d
     Comunicação Hardware                        :milestone, m3, 06/11/2025, 0d
     Produto Final                               :milestone, m4, 03/12/2025, 0d
+    Encerramento do Projeto                     :milestone, m4, 05/12/2025, 0d
 ```
 
 ---
@@ -473,7 +474,7 @@ gantt
 | ** Funcionalidades de Frontend e API Básicas** | Telas funcionais e endpoints REST integrados              | UI + API operando sem comunicação com ESP    | **Fim da Sprint 5 (27/10/2025)**  | ✅ Concluído     |
 | ** Comunicação com Hardware Viável**           | Arquitetura final aprovada e conexão com ESP32 funcional  | MQTT funcionando + testes realizados         | **Fim da Sprint 7 (06/11/2025)**  | ✅ Concluído     |
 | ** Testes e Estabilização do Software**        | Produto testado com requisitos atendidos                  | Software + testes do frontend e backend      | **Fim da Sprint 9 (17/11/2025)**  | ✅ Concluído  |
-| ** Entrega Final do Produto**                  | Produto integrado, funcional e documentado                | Software completo + relatório + apresentação | **Fim da Sprint 11 (03/12/2025)** | 🟢 Progredindo como planejado  |
+| ** Entrega Final do Produto**                  | Produto integrado, funcional e documentado                | Software completo + relatório + apresentação | **Fim da Sprint 11 (03/12/2025)** | ✅ Progredindo como planejado  |
 
 
 ---
