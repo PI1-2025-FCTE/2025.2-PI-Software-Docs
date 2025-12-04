@@ -474,7 +474,7 @@ gantt
 | ** Funcionalidades de Frontend e API Básicas** | Telas funcionais e endpoints REST integrados              | UI + API operando sem comunicação com ESP    | **Fim da Sprint 5 (27/10/2025)**  | ✅ Concluído     |
 | ** Comunicação com Hardware Viável**           | Arquitetura final aprovada e conexão com ESP32 funcional  | MQTT funcionando + testes realizados         | **Fim da Sprint 7 (06/11/2025)**  | ✅ Concluído     |
 | ** Testes e Estabilização do Software**        | Produto testado com requisitos atendidos                  | Software + testes do frontend e backend      | **Fim da Sprint 9 (17/11/2025)**  | ✅ Concluído  |
-| ** Entrega Final do Produto**                  | Produto integrado, funcional e documentado                | Software completo + relatório + apresentação | **Fim da Sprint 11 (03/12/2025)** | ✅ Progredindo como planejado  |
+| ** Entrega Final do Produto**                  | Produto integrado, funcional e documentado                | Software completo + relatório + apresentação | **Fim da Sprint 11 (03/12/2025)** | ✅ Concluído  |
 
 
 ---
